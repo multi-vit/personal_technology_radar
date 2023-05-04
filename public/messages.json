@@ -1,7 +1,7 @@
 {
-  "footerFootnote": "AOE is a leading global provider of services for digital transformation and digital business models. AOE relies exclusively on established Enterprise Open Source technologies. This leads to innovative solutions, digital products and portals in agile software projects, and helps build long-lasting, strategic partnerships with our customers.",
-  "legalInformationLabel": "Legal Information",
-  "legalInformationLink": "https://www.aoe.com/en/imprint.html",
+  "footerFootnote": "TODO.",
+  "legalInformationLabel": "",
+  "legalInformationLink": "",
   "pageHelp": {
     "headlinePrefix": "How to use the",
     "paragraphs": [
@@ -28,6 +28,7 @@
       },
       {
         "headline": "How should it be used",
+
         "values": [
           "The radar acts as an overview of technologies that we think everyone in the teams should currently know about.",
           "Its goal is to act as a guide and inspiration for the daily work in the teams. Its purpose is also to provide helpful information and a bird's-eye perspective - so that decisions can be taken with a much deeper understanding of the subject matter. This results in more-informed and better-aligned decisions.",
@@ -38,46 +39,46 @@
     ],
     "quadrants": [
       {
-        "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds.",
-        "name": "Languages and Frameworks"
+        "description": "Specialism. The vertical part of the T",
+        "name": "Deep Discipline Expertise"
       },
       {
-        "description": "Here we put different software tools - from small helpers to bigger software projects",
-        "name": "Tools"
+        "description": "The horizontal part of the T",
+        "name": "Cross Discipline Expertise"
       },
       {
-        "description": "Patterns are so important, and a lot of them are valid for a long time (compared to some tools or frameworks). So, this is the category where we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc.",
-        "name": "Methods and Patterns"
+        "description": "Tools and patterns that you use within your job role but which don't necessarily fall under your main job role but contribute to your effectiveness within the organisation.",
+        "name": "Personal Effectiveness"
       },
       {
-        "description": "(including AOE internal Services): Here we include infrastructure platforms and services. We also use this category to communicate news about AOE services that we want all AOE teams to be aware of.",
-        "name": "Platforms and Operations"
+        "description": "Taking a holistic approach to personal development and allowing folks to put more personal goals/tools/practices in here.",
+        "name": "Everything Else..."
       }
     ],
     "quadrantsPreDescription": "The quadrants are:",
     "rings": [
       {
-        "description": "We can clearly recommend this technology. We have used it for longer period of time in many teams and it has proven to be stable and useful.",
+        "description": "Technologies and practices that I have used heavily, that excite me and I'd like to continue to use.",
         "name": "Adopt"
       },
       {
-        "description": "We have used it with success and recommend to have a closer look at the technology in this ring. The goal of items here is to look at them more closely, with the goal to bring them to the adopt level.",
+        "description": "Technologies and Practices which I have an interest in and an awareness of.  I'd like to grow my experience in these areas.",
         "name": "Trial"
       },
       {
-        "description": "We have tried it out and we find it promising. We recommend having a look at these items when you face a specific need for the technology in your project.",
-        "name": "Assess"
+        "description": "These are technologies or practices which I find promising - almost a todo list for future learning.",
+        "name": "Backburner"
       },
       {
-        "description": "This category is a bit special. Unlike the others, we recommend to stop doing or using something. That does not mean that they are bad and it often might be ok to use them in existing projects. But we move things here if we think we shouldn't do them anymore - because we see better options or alternatives now.",
+        "description": "This category is a bit special. These are things that I have had previous exposure to but wouldn't use either as there are better alternatives or they don't/no longer excite me.",
         "name": "Hold"
       }
     ],
     "ringsPreDescription": "Each of the items is classified in one of these rings:",
     "sourcecodeLink": {
-      "description": "Contributions and source code of the AOE Tech Radar are on github:",
-      "href": "https://github.com/AOEpeople/aoe_technology_radar",
-      "name": "AOE Tech Radar on Github"
+      "description": "Contributions and source code of the Personal Tech Radar are on github:",
+      "href": "https://github.com/stephenjgray/aoe_technology_radar",
+      "name": "Personal Tech Radar on Github"
     }
   },
   "pageIndex": {
@@ -94,33 +95,21 @@
   "searchPlaceholder": "What are you looking for?",
   "socialLinks": [
     {
-      "href": "https://www.facebook.com/aoepeople",
-      "iconName": "facebook"
-    },
-    {
-      "href": "https://twitter.com/aoepeople",
+      "href": "#",
       "iconName": "twitter"
     },
     {
-      "href": "https://www.linkedin.com/company/aoe",
+      "href": "#",
       "iconName": "linkedIn"
     },
     {
-      "href": "https://www.xing.com/company/aoe",
-      "iconName": "xing"
-    },
-    {
-      "href": "https://www.instagram.com/aoepeople",
+      "href": "#",
       "iconName": "instagram"
     },
     {
-      "href": "https://www.youtube.com/user/aoepeople",
-      "iconName": "youtube"
-    },
-    {
-      "href": "https://github.com/aoepeople",
+      "href": "#",
       "iconName": "github"
     }
   ],
-  "socialLinksLabel": "Follow us:"
+  "socialLinksLabel": "Follow me:"
 }

@@ -1,16 +1,11 @@
 {
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
-    "methods-and-patterns": "Methods & Patterns",
-    "platforms-and-aoe-services": "Platforms & Operations",
-    "tools": "Tools"
+    "tools": "Cross Discipline Expertise",
+    "languages-and-frameworks": "Deep Discipline Expertise",
+    "methods-and-patterns": "Personal Effectiveness",
+    "platforms-and-aoe-services": "Everything Else..."
   },
-  "rings": [
-    "adopt",
-    "trial",
-    "assess",
-    "hold"
-  ],
+  "rings": ["adopt", "trial", "assess", "hold"],
   "showEmptyRings": false,
   "homepageContent": "both",
   "quadrantsMap": {
@@ -19,6 +14,12 @@
       "txtColour": "#444444",
       "position": 1,
       "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
+    },
+    "tools": {
+      "colour": "#F2A25C",
+      "txtColour": "white",
+      "position": 4,
+      "description": "Here we put different software tools - from small helpers to bigger software projects"
     },
     "methods-and-patterns": {
       "colour": "#248EA6",
@@ -31,20 +32,11 @@
       "txtColour": "#444444",
       "position": 3,
       "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
-    },
-    "tools": {
-      "colour": "#F2A25C",
-      "txtColour": "white",
-      "position": 4,
-      "description": "Here we put different software tools - from small helpers to bigger software projects"
     }
   },
   "chartConfig": {
     "size": 800,
-    "scale": [
-      -16,
-      16
-    ],
+    "scale": [-16, 16],
     "blipSize": 12,
     "ringsAttributes": [
       {
