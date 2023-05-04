@@ -1,12 +1,15 @@
 # AOE Technology Radar
+
 A static site generator for AOE Technology Radar
 
 ## Looking for the AOE Tech Radar content?
+
 The repository is now found here: https://github.com/AOEpeople/techradar
 
 The AOE Tech radar is deployed here: https://www.aoe.com/techradar/index.html
 
 ## Create your own radar
+
 The generator is free to use under Open Source License - in fact there are already some other Radars published based on our Radar and there are also Contributions back.
 
 However, please be aware:
@@ -15,27 +18,33 @@ However, please be aware:
 - Also, when you want to reuse the CSS and Styling: Change the font (it is a licensed font) and the colors (It using AOE CI)
 
 ### Use and build the radar
+
 Create a new npm project and add the tech radar as a dependency
+
 ```
 npm i aoe_technology_radar
 ```
 
 Build the radar
+
 ```
 npx aoe_technology_radar-buildRadar
 ```
 
 Generate the `rd.json` file containing the radar data
+
 ```
 npx aoe_technology_radar-generateJson
 ```
 
 Run the Prepare script
+
 ```
 npm run prepare
 ```
 
 Serve
+
 ```
 cd build
 python3 -m http.server 8080
@@ -48,17 +57,20 @@ Then open here: http://localhost:8080/
 To have a better SEO ranking or deploy to S3, you can generate a html file for every page.
 
 Requirements
-* Build the radar
-* Generate the `rd.json` file
+
+- Build the radar
+- Generate the `rd.json` file
 
 ```
 npx aoe_technology_radar-createStaticFiles
 ```
 
 ## Authoring Techradar contents
+
 For a new Technology Radar release, create a folder of the release date (YYYY-MM-DD) under `./radar`.
 
 ### Maintaining items
+
 The items are written in Markdown format (.md)
 
 Each file has a [front-matter](https://github.com/jxson/front-matter) header where the attributes of the item are listed:
@@ -67,7 +79,7 @@ Each file has a [front-matter](https://github.com/jxson/front-matter) header whe
 ---
 title:      "React"
 ring:       adopt
-quadrant:   languages-and-frameworks
+quadrant:   deep-discipline-expertise
 ---
 
 Text goes here. You can use **markdown** here.
@@ -76,7 +88,7 @@ Text goes here. You can use **markdown** here.
 Following front-matter attributes are possible:
 
 - **title**: Name of the Item
-- **quadrant**: Quadrant. One of `languages-and-frameworks`,
+- **quadrant**: Quadrant. One of `deep-discipline-expertise`,
   `methods-and-patterns`, `platforms-and-aoe-services`, `tools`
 - **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `hold`
 - **info**: (optional) A short textual description of the item (visible in
@@ -97,23 +109,29 @@ You can integrate images in your markdown. Put the image files in your public fo
 ```
 
 ## Customize the tech radar
+
 You can customize the following parts of the tech radar.
 
 ### Change title, description and headline
+
 Set the environment variable `REACT_APP_RADAR_NAME`. The default is "AOE Technology Radar".
 
 ### Host the application under a sub path
+
 To host the application under a sub path, set the environment variable `PUBLIC_URL`, e.g. "/techradar". The default is "/".
 
 ### Change the favicon
+
 To change the favicon, create a folder named `public` and put your `favicon.ico` in it.
 
 ### Change the logo
+
 To change the logo, create a folder named `public` and put your `logo.svg` in it.
 
 For reference have a look at [public/logo.svg](./public/logo.svg).
 
 ### Change the date format
+
 By default the Date format used in the app is `"MMMM YYYY"`.
 You can change this by editing the `config.js` file as shown below.
 Please be sure you are entering a valid [moment.js format string](https://momentjs.com/docs/#/displaying/format).
@@ -128,6 +146,7 @@ Please be sure you are entering a valid [moment.js format string](https://moment
 For reference have a look at [public/logo.svg](./public/logo.svg).
 
 ### Edit from published radar
+
 You can activate the `editLink` feature which will display a small edit button next to a technology which let's you jump directly to a gitlab / github / etc. edit page:
 
 ```json
@@ -141,6 +160,7 @@ You can activate the `editLink` feature which will display a small edit button n
 ```
 
 ### Change the rings and quadrants config
+
 To change the default rings and quadrants of the radar, you can place a custom `config.json` file within the `public` folder.
 The `showEmptyRings` option can be enabled to display the header for a ring even when it contains no items (helpful to
 reinforce the order of the rings).
@@ -149,18 +169,20 @@ The content should look as follows:
 ```json
 {
   "quadrants": {
-    "languages-and-frameworks": "Languages & Frameworks",
+    "deep-discipline-expertise": "Languages & Frameworks",
     "methods-and-patterns": "Methods & Patterns",
     "platforms-and-operations": "Platforms & Operations",
     "tools": "Tools"
   },
-  "rings":["all", "adopt", "trial", "assess", "hold"],
+  "rings": ["all", "adopt", "trial", "assess", "hold"],
   "showEmptyRings": true
 }
 ```
 
 ### Filter with tags / create different Radars
+
 To create different radars with one set of blips put a `tags` entry in your frontmatter:
+
 ```yaml
 ---
 title: Item
@@ -171,6 +193,7 @@ tags: [radar-1, radar-2]
 ```
 
 Then, to select the blips put a `tags` entry in the `config.json` for generating the site:
+
 ```json
 {
   "tags": ["radar-1"],
@@ -181,27 +204,31 @@ Then, to select the blips put a `tags` entry in the `config.json` for generating
 This will only add blips with the defined tags into the output.
 
 ### Change the index.html
+
 To change the index.html, create a public folder in your application and put your `index.html` in it.
 
 For reference have a look at [public/index.html](./public/index.html).
 
 ### Change the fonts
+
 To change the fonts, create a public folder in your application and put your fonts in it.
 
 Create a `fonts.css` in the public folder and load your fonts.
+
 > For now only 2 fonts will be used: `DIN normal` and `DIN 300`.
 > Therefore, you only can replace the font files itself, but need to use the font-family and font-weight.
+
 ```css
 @font-face {
-    font-family: "DIN";
-    src: url("fonts/yourFontFileForNormal");
-    font-weight: normal;
+  font-family: "DIN";
+  src: url("fonts/yourFontFileForNormal");
+  font-weight: normal;
 }
 
 @font-face {
-    font-family: "DIN";
-    src: url("fonts/yourFontFileForThin");
-    font-weight: 300;
+  font-family: "DIN";
+  src: url("fonts/yourFontFileForThin");
+  font-weight: 300;
 }
 ```
 
@@ -222,12 +249,14 @@ The icons should be placed in the `public` folder as well (e.g. in a specific `i
 
 ```css
 body {
-  background-image: url('/images/my-custom-background-image.png');
+  background-image: url("/images/my-custom-background-image.png");
 }
 ```
 
 ### Add social links to the footer and sidebar
+
 To add social links, create a public folder in your application and put a `messages.json` in it.
+
 ```json
 {
   "socialLinks": [
@@ -241,7 +270,9 @@ To add social links, create a public folder in your application and put a `messa
 > For more information and the possible icon names see the source code of the [SocialLink Component](./src/components/SocialLink/SocialLink.tsx).
 
 ### Add a legal information link to the footer and sidebar
+
 To add a link to legal information, create a public folder in your application and put a `messages.json` in it.
+
 ```json
 {
   "legalInformationLink": "https://www.aoe.com/en/imprint.html"
@@ -249,7 +280,9 @@ To add a link to legal information, create a public folder in your application a
 ```
 
 ### Add a footnote with the logo to the footer
+
 To add a footnote to the footer, create a public folder in your application and put a `messages.json` in it.
+
 ```json
 {
   "footerFootnote": "AOE is a leading global provider of services for digital transformation and digital business models. AOE relies exclusively on established Enterprise Open Source technologies. This leads to innovative solutions, digital products and portals in agile software projects, and helps build long-lasting, strategic partnerships with our customers."
@@ -259,7 +292,9 @@ To add a footnote to the footer, create a public folder in your application and 
 > The footnote information may include HTML like `<a href="https://foo.bar">My Link</a>` which will be sanitized.
 
 ### Add a help page with explanations
+
 To add a help page, create a public folder in your application and put a `messages.json` in it.
+
 ```json
 {
   "pageHelp": {
@@ -324,17 +359,20 @@ To add a help page, create a public folder in your application and put a `messag
 }
 ```
 
-> The information in `description`s  for `rings` and `quadrants` as well as the `values` for `paragraphs` may include HTML like `<a href="https://foo.bar">My Link</a>` which will be sanitized.
+> The information in `description`s for `rings` and `quadrants` as well as the `values` for `paragraphs` may include HTML like `<a href="https://foo.bar">My Link</a>` which will be sanitized.
 
 > For more information see the source code of the [Messages Context](./src/context/MessagesContext/index.tsx).
 
 ## Development
+
 Then simply start the dev server:
+
 ```
 npm run start
 ```
 
 ### Change scripts
+
 If you change one of the scripts in the scripts' folder, you have to compile them to JavaScript.
 
 Therefore, run `npm run build:scripts` and commit the results in dist_scripts.

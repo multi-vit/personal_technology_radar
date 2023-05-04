@@ -1,7 +1,7 @@
 {
   "quadrants": {
     "tools": "Cross Discipline Expertise",
-    "languages-and-frameworks": "Deep Discipline Expertise",
+    "deep-discipline-expertise": "Deep Discipline Expertise",
     "methods-and-patterns": "Personal Effectiveness",
     "platforms-and-aoe-services": "Everything Else..."
   },
@@ -9,7 +9,7 @@
   "showEmptyRings": false,
   "homepageContent": "both",
   "quadrantsMap": {
-    "languages-and-frameworks": {
+    "deep-discipline-expertise": {
       "colour": "#84BFA4",
       "txtColour": "#444444",
       "position": 1,

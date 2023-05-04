@@ -65,7 +65,7 @@
           "release": "2017-03-01",
           "title": "Akka",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\akka.md",
           "body": "<p>With the growing adoption of microservice-based architecures, the interest in frameworks and tools that make building systems that follow the reactive manifesto possible has increased.</p>\n<p>Akka provides you a toolkit and runtime based on the Actor model known from Erlang to reach this goal.</p>\n<p>It&#39;s one of the most-adopted toolkits in its space with its key contributors beeing heavily involved in the overall movement of the reactive community as well.\nAt AOE, we use Akka when we need high-performance, efficient data processing or where its finite state machine plays nicely with the domain of the application. It is worth mentioning that the actor model might come with extra complexity and therefore should be used in problem spaces where the advantages of this approach bring enough value and no accidental complexity.</p>\n"
         }
@@ -73,7 +73,7 @@
       "name": "akka",
       "title": "Akka",
       "ring": "trial",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>With the growing adoption of microservice-based architecures, the interest in frameworks and tools that make building systems that follow the reactive manifesto possible has increased.</p>\n<p>Akka provides you a toolkit and runtime based on the Actor model known from Erlang to reach this goal.</p>\n<p>It&#39;s one of the most-adopted toolkits in its space with its key contributors beeing heavily involved in the overall movement of the reactive community as well.\nAt AOE, we use Akka when we need high-performance, efficient data processing or where its finite state machine plays nicely with the domain of the application. It is worth mentioning that the actor model might come with extra complexity and therefore should be used in problem spaces where the advantages of this approach bring enough value and no accidental complexity.</p>\n",
       "info": "",
       "release": "2017-03-01",
@@ -88,7 +88,7 @@
           "release": "2019-11-01",
           "title": "Akka Streams",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "featured": false,
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\akka-streams.md",
           "body": "<p>Updated to &quot;adopt&quot;</p>\n"
@@ -98,15 +98,15 @@
           "release": "2018-03-01",
           "title": "Akka Streams",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\akka-streams.md",
-          "body": "<p>In our backend services, we frequently encounter the task to transform data\ncoming from and uploading to external sources and services.</p>\n<p>Building more complex data transformation processes with Akka Actors has proven\nvery difficult for us in the past.</p>\n<p>Seeing this data as a stream of elements could allow handling them piece by\npiece and only keeping as much of the data in-process as can currently be\nhandled.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://doc.akka.io/docs/akka/current/scala/stream/index.html\">Akka Streams</a> is\na <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.reactive-streams.org/\">Reactive Streams</a> implementation that\nprovides a very end-user friendly API for setting up streams for data\nprocessing that are bounded in resource usage and efficient.  It uses the Akka\nActor Framework to execute these streams in an asynchronous and parallel\nfashion exploiting today&#39;s multi-core architectures without having the user to\ninteract with Actors directly. It handles things such as message resending in\nfailure cases and preventing message overflow. It is also interoperable with\nother Reactive Streams implementations.</p>\n<p>Our first trials with Akka Streams were promising but we haven&#39;t yet implemented\ncomplex services with it.</p>\n<p>We will continue looking into it together with the\n<a href=\"/techradar/languages-and-frameworks/alpakka.html\">Alpakka</a> Connectors for integration\nwork.</p>\n"
+          "body": "<p>In our backend services, we frequently encounter the task to transform data\ncoming from and uploading to external sources and services.</p>\n<p>Building more complex data transformation processes with Akka Actors has proven\nvery difficult for us in the past.</p>\n<p>Seeing this data as a stream of elements could allow handling them piece by\npiece and only keeping as much of the data in-process as can currently be\nhandled.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://doc.akka.io/docs/akka/current/scala/stream/index.html\">Akka Streams</a> is\na <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.reactive-streams.org/\">Reactive Streams</a> implementation that\nprovides a very end-user friendly API for setting up streams for data\nprocessing that are bounded in resource usage and efficient.  It uses the Akka\nActor Framework to execute these streams in an asynchronous and parallel\nfashion exploiting today&#39;s multi-core architectures without having the user to\ninteract with Actors directly. It handles things such as message resending in\nfailure cases and preventing message overflow. It is also interoperable with\nother Reactive Streams implementations.</p>\n<p>Our first trials with Akka Streams were promising but we haven&#39;t yet implemented\ncomplex services with it.</p>\n<p>We will continue looking into it together with the\n<a href=\"/techradar/deep-discipline-expertise/alpakka.html\">Alpakka</a> Connectors for integration\nwork.</p>\n"
         }
       ],
       "name": "akka-streams",
       "title": "Akka Streams",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Updated to &quot;adopt&quot;</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -121,7 +121,7 @@
           "release": "2019-11-01",
           "title": "Alpakka",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\alpakka.md",
           "body": "<p>Updated to &quot;adopt&quot;</p>\n"
         },
@@ -130,15 +130,15 @@
           "release": "2018-03-01",
           "title": "Alpakka",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\alpakka.md",
-          "body": "<p>When using <a href=\"/techradar/languages-and-frameworks/akka-streams.html\">Akka Streams</a> to build\nreactive data transformation services you usually need to connect to several\ndifferent services such as FTP, S3 buckets, AMQP brokers or different databases.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.lightbend.com/docs/alpakka/current/\">Alpakka</a> provides\nintegration building blocks for Akka Streams to access these services in a\nreactive fashion and contains transformations for working with XML, CSV or\nJSON structured data.</p>\n<p>Combined, Akka Streams and Alpakka enable us to build small reactive\nintegration services with minimal resource consumption and good performance, and\nare a good alternative to larger ESB solutions or integration tools.</p>\n"
+          "body": "<p>When using <a href=\"/techradar/deep-discipline-expertise/akka-streams.html\">Akka Streams</a> to build\nreactive data transformation services you usually need to connect to several\ndifferent services such as FTP, S3 buckets, AMQP brokers or different databases.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.lightbend.com/docs/alpakka/current/\">Alpakka</a> provides\nintegration building blocks for Akka Streams to access these services in a\nreactive fashion and contains transformations for working with XML, CSV or\nJSON structured data.</p>\n<p>Combined, Akka Streams and Alpakka enable us to build small reactive\nintegration services with minimal resource consumption and good performance, and\nare a good alternative to larger ESB solutions or integration tools.</p>\n"
         }
       ],
       "name": "alpakka",
       "title": "Alpakka",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Updated to &quot;adopt&quot;</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -153,7 +153,7 @@
           "release": "2021-01-01",
           "title": "Angular",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\angular.md",
           "body": "<p>Actually in version 11 Angular has become an adult SPA framework with much faster build time and significant smaller\nproduction builds. Updating to newer versions has become mostly a &quot;no-brainer&quot; which helps us to integrate latest\ncommunity bug-fix &amp; improvements on a friday during a cup of coffee. Angular ships as a fully integrated development\nplatform from scaffolding, code generation, routing, guarding, unit/e2e-testing, multi language builds (i18n) and stable\ndev/build processes and keeping it extensible at the same time. This &quot;ganzheitlichkeit&quot; makes Angular in the beginning\nway more difficult to learn but once understood it&#39;s a great candidate to go very fast into &quot;requirement implementation&quot;\naka early providing value rather than library wiring. Beside the existing telco-industry projects we&#39;ve actually also\nchosen Angular for resource critical industry 4.0 / embedded projects. Here we&#39;ve selected Angular beside the\nperformance aspects to fulfill requirements like adaptive multi device support (custom hardware buttons, tablets and\nlaptops) on the one hand and on the other hand to reduce the risk loosing time by having too many self-managed external\ndependencies.</p>\n"
         },
@@ -162,7 +162,7 @@
           "release": "2018-03-01",
           "title": "Angular",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\angular.md",
           "body": "<p>In addition to numerous major upgrades from version 2 to 5, which often needed a &quot;hands-on&quot; approach, a lot has happened in the Angular \necosystem in 2017. Specifically, the improvements in the HTTP-Client, which now requires less coding effort. Or \nthe vast improvements on angular.cli such as aot (ahead of time compile) for faster rendering, fewer requests and \nmuch smaller builds, to just name the most important ones.</p>\n<p>We have achieved particularly good results using Angular in large and medium-size projects. Actually, \nit&#39;s our framework-of-choice in our telecommunication sector teams as a single-page application framework (SPA) for microservice front \nends.</p>\n<p>The convenient scaffolding of unit- and end-to-end-tests provides a quality-driven workflow.\nAlso, the module- and component architecture helps to keep the codebase understandable end maintainable.</p>\n"
         },
@@ -171,7 +171,7 @@
           "release": "2017-03-01",
           "title": "Angular",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\angular.md",
           "body": "<p>The latest version of the Angular Framework, which is used for large single-page applications.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://angular.io/\">Angular</a> is a complete rewrite of Angular 1 — many things have changed compared to the first version. The latest best practices and toolings from the JavaScript community have found their way into Angular.</p>\n<p>It supports DI (dependency injection), it has a clean inheritance and a good separation of concerns. Angular follows the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.w3.org/standards/techs/components#w3c_all\">web component standards</a> to avoid negative side effects between components.</p>\n<p>We think that Angular is well-structured on both a development and an application level.</p>\n<p>When talking about Angular, we must consider the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://cli.angular.io/\">angular.cli</a> as well, which provides a huge level of intelligent automation along the development process and project setup.</p>\n"
         }
@@ -179,7 +179,7 @@
       "name": "angular",
       "title": "Angular",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Actually in version 11 Angular has become an adult SPA framework with much faster build time and significant smaller\nproduction builds. Updating to newer versions has become mostly a &quot;no-brainer&quot; which helps us to integrate latest\ncommunity bug-fix &amp; improvements on a friday during a cup of coffee. Angular ships as a fully integrated development\nplatform from scaffolding, code generation, routing, guarding, unit/e2e-testing, multi language builds (i18n) and stable\ndev/build processes and keeping it extensible at the same time. This &quot;ganzheitlichkeit&quot; makes Angular in the beginning\nway more difficult to learn but once understood it&#39;s a great candidate to go very fast into &quot;requirement implementation&quot;\naka early providing value rather than library wiring. Beside the existing telco-industry projects we&#39;ve actually also\nchosen Angular for resource critical industry 4.0 / embedded projects. Here we&#39;ve selected Angular beside the\nperformance aspects to fulfill requirements like adaptive multi device support (custom hardware buttons, tablets and\nlaptops) on the one hand and on the other hand to reduce the risk loosing time by having too many self-managed external\ndependencies.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -273,7 +273,7 @@
           "release": "2019-11-01",
           "title": "Apache Camel",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "featured": false,
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\apache-camel.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camel.apache.org/\">&quot;Camel&quot;</a> is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</p>\n<p>Our teams are using Apache Camel as API Gateway that offers APIs and takes care of Federation to various Backends as well as Authorisation tasks.</p>\n"
@@ -282,7 +282,7 @@
       "name": "apache-camel",
       "title": "Apache Camel",
       "ring": "trial",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://camel.apache.org/\">&quot;Camel&quot;</a> is an open source integration framework that empowers you to quickly and easily integrate various systems consuming or producing data.</p>\n<p>Our teams are using Apache Camel as API Gateway that offers APIs and takes care of Federation to various Backends as well as Authorisation tasks.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -464,7 +464,7 @@
           "release": "2018-03-01",
           "title": "Babel",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\babel.md",
           "body": "<p>We have been using babel for some time now. Since we have started using it, we don&#39;t have to\nstruggle with unimplemented features of ECMAScript. In this regard, JavaScript is\nJavaScript, no matter what browser you are using. We we strongly recommend \nusing Babel or similar solutions (e.g. TypeScript).</p>\n"
         },
@@ -473,15 +473,15 @@
           "release": "2017-03-01",
           "title": "Babel",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\babel.md",
-          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/\">Babel</a> gives you the possibility to use the latest features from JavaScript (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/ECMAScript\">ECMAScript</a>) in the browser of your choice.</p>\n<p>Without Babel you had to use the feature set of your oldest browser or use feature detections such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://modernizr.com/\">modernizr</a> or write polyfills on your own.</p>\n<p>In general, Babel is split in 2 ways to bring you the new goodies you want.</p>\n<ol>\n<li><p>New syntax will be compiled to old EcmaScript 5 code e.g.:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions\">arrow-functions</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator\">generators</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment\">destructuring</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals\">template literals</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/learn-es2015/\">...</a></li>\n</ul>\n</li>\n<li><p>New globals and functions are provided by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/usage/polyfill/\">babel-polyfill</a> e.g.:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\">Promise</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find\">Array.find</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes\">Array.includes</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/zloirock/core-js#index\">...</a></li>\n</ul>\n</li>\n</ol>\n<p>The configuration is really simple due to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/plugins/\">plugin system</a>. You can choose which ECMAScript version and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/plugins/#presets\">stage presets</a> you want to use.</p>\n<ul>\n<li>for the latest ECMAScript version use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/docs/plugins/preset-env/\">babel-preset-env</a></li>\n<li>for version 2015 only use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/docs/plugins/preset-es2015/\">babel-preset-2015</a></li>\n</ul>\n<p>To know what you need you can practice ECMAScript 6 by doing it with <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://es6katas.org/\">es6katas</a> and ask <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://caniuse.com/\">caniuse</a>.</p>\n<p>If you are using <a href=\"/techradar/languages-and-frameworks/typescript.html\">TypeScript</a>, Babel is not necessary since you already get the new features with TypeScript.</p>\n"
+          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/\">Babel</a> gives you the possibility to use the latest features from JavaScript (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/ECMAScript\">ECMAScript</a>) in the browser of your choice.</p>\n<p>Without Babel you had to use the feature set of your oldest browser or use feature detections such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://modernizr.com/\">modernizr</a> or write polyfills on your own.</p>\n<p>In general, Babel is split in 2 ways to bring you the new goodies you want.</p>\n<ol>\n<li><p>New syntax will be compiled to old EcmaScript 5 code e.g.:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions\">arrow-functions</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator\">generators</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment\">destructuring</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals\">template literals</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/learn-es2015/\">...</a></li>\n</ul>\n</li>\n<li><p>New globals and functions are provided by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/usage/polyfill/\">babel-polyfill</a> e.g.:</p>\n<ul>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\">Promise</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find\">Array.find</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/includes\">Array.includes</a></li>\n<li><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/zloirock/core-js#index\">...</a></li>\n</ul>\n</li>\n</ol>\n<p>The configuration is really simple due to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/plugins/\">plugin system</a>. You can choose which ECMAScript version and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://babeljs.io/docs/plugins/#presets\">stage presets</a> you want to use.</p>\n<ul>\n<li>for the latest ECMAScript version use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/docs/plugins/preset-env/\">babel-preset-env</a></li>\n<li>for version 2015 only use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://babeljs.io/docs/plugins/preset-es2015/\">babel-preset-2015</a></li>\n</ul>\n<p>To know what you need you can practice ECMAScript 6 by doing it with <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://es6katas.org/\">es6katas</a> and ask <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://caniuse.com/\">caniuse</a>.</p>\n<p>If you are using <a href=\"/techradar/deep-discipline-expertise/typescript.html\">TypeScript</a>, Babel is not necessary since you already get the new features with TypeScript.</p>\n"
         }
       ],
       "name": "babel",
       "title": "Babel",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>We have been using babel for some time now. Since we have started using it, we don&#39;t have to\nstruggle with unimplemented features of ECMAScript. In this regard, JavaScript is\nJavaScript, no matter what browser you are using. We we strongly recommend \nusing Babel or similar solutions (e.g. TypeScript).</p>\n",
       "info": "",
       "release": "2018-03-01",
@@ -1244,7 +1244,7 @@
           "release": "2019-11-01",
           "title": "Flamingo",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\flamingo.md",
           "body": "<p>Flamingo is a high productivity go based framework for rapidly building fast and pluggable web projects.\nIt is used to build scalable and maintainable (web)applications.</p>\n<p>Flamingo is:</p>\n<ul>\n<li>open source</li>\n<li>written in go</li>\n<li>easy to learn</li>\n<li>fast and flexible</li>\n</ul>\n<p>Go as simple, powerful and typesafe language is great to implement and scale serverside logic.\nFlamingo has a clean architecture with clear dependencies in mind and offers a typical features and support for nowadays web applications:</p>\n<ul>\n<li>Powerful Templating Engines. E.g. support for Pug templates with reusable mixins and lightweight scripting.</li>\n<li>Configuration concepts using yml and support for multiple areas and contexts</li>\n<li>Powerful Dependency Injection</li>\n<li>A Module concept for building modular and pluggable applications</li>\n<li>Authentication concepts and security middleware</li>\n<li>Flexible routing with support for prefix routes and reverse routing</li>\n<li>Web Controller Support with: Request / Response / Form Handling etc</li>\n<li>Operational Readyness: Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint</li>\n<li>Localisation</li>\n<li>Commands</li>\n<li>Sessionhandling and Management</li>\n<li>GraphQL support and therefore support to build nice SPA and PWAs on top of it</li>\n<li>Resilience and Caching for external APIs calls.</li>\n</ul>\n<p>Flamingo itself does not contain ORM Mapper or libraries - instead it emphasizes <a href=\"/techradar/methods-and-patterns/ports-and-adapters.html\">&quot;ports and adapters&quot;</a>  architecture - so that you have a technology free (domain) model and any possible (and replaceable) persitence behind it.\nThat makes Flamingo useful to build microservices and applications - especially to build &quot;frontends&quot; or portals that require interaction with other (micro) services in a distributed architecture. \nWhen sticking to the architectural recommendation you can build modular applications with replaceable adapters that gives you independed testability.</p>\n<p>With <strong>&quot;Flamingo Commerce&quot;</strong> there is an additional active projects that offer rich and flexible features to build modern e-commerce applications.</p>\n"
         }
@@ -1252,7 +1252,7 @@
       "name": "flamingo",
       "title": "Flamingo",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Flamingo is a high productivity go based framework for rapidly building fast and pluggable web projects.\nIt is used to build scalable and maintainable (web)applications.</p>\n<p>Flamingo is:</p>\n<ul>\n<li>open source</li>\n<li>written in go</li>\n<li>easy to learn</li>\n<li>fast and flexible</li>\n</ul>\n<p>Go as simple, powerful and typesafe language is great to implement and scale serverside logic.\nFlamingo has a clean architecture with clear dependencies in mind and offers a typical features and support for nowadays web applications:</p>\n<ul>\n<li>Powerful Templating Engines. E.g. support for Pug templates with reusable mixins and lightweight scripting.</li>\n<li>Configuration concepts using yml and support for multiple areas and contexts</li>\n<li>Powerful Dependency Injection</li>\n<li>A Module concept for building modular and pluggable applications</li>\n<li>Authentication concepts and security middleware</li>\n<li>Flexible routing with support for prefix routes and reverse routing</li>\n<li>Web Controller Support with: Request / Response / Form Handling etc</li>\n<li>Operational Readyness: Logging, (distributed) Tracing, Metrics and Healthchecks with seperate endpoint</li>\n<li>Localisation</li>\n<li>Commands</li>\n<li>Sessionhandling and Management</li>\n<li>GraphQL support and therefore support to build nice SPA and PWAs on top of it</li>\n<li>Resilience and Caching for external APIs calls.</li>\n</ul>\n<p>Flamingo itself does not contain ORM Mapper or libraries - instead it emphasizes <a href=\"/techradar/methods-and-patterns/ports-and-adapters.html\">&quot;ports and adapters&quot;</a>  architecture - so that you have a technology free (domain) model and any possible (and replaceable) persitence behind it.\nThat makes Flamingo useful to build microservices and applications - especially to build &quot;frontends&quot; or portals that require interaction with other (micro) services in a distributed architecture. \nWhen sticking to the architectural recommendation you can build modular applications with replaceable adapters that gives you independed testability.</p>\n<p>With <strong>&quot;Flamingo Commerce&quot;</strong> there is an additional active projects that offer rich and flexible features to build modern e-commerce applications.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -1267,7 +1267,7 @@
           "release": "2018-03-01",
           "title": "Flow",
           "ring": "hold",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "featured": false,
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\flow.md",
           "body": ""
@@ -1277,16 +1277,16 @@
           "release": "2017-03-01",
           "title": "Flow",
           "ring": "hold",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\flow.md",
-          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://flow.neos.io/\">Flow</a> is a PHP web application framework developed for the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.neos.io/\">Neos</a> project.</p>\n<p>We used Flow in a couple of projects and decided to put it on hold for the following reasons:</p>\n<ul>\n<li>  slow during development and hard to debug because of its need to &quot;compile&quot; the application to integrate e.g. AOP</li>\n<li>  limited documentation and community</li>\n<li>  development of the framework is closely coupled to the progress of the Neos project</li>\n</ul>\n<p>Although it could be that some of the above-mentioned aspects have improved in the past, we decided to use other PHP frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/\">Symfony</a> or other Languages (See <a href=\"/techradar/languages-and-frameworks/go-lang.html\">Go</a>; <a href=\"/techradar/languages-and-frameworks/play-framework.html\">Play Framework</a>; <a href=\"/techradar/languages-and-frameworks/spring-boot.html\">Spring Boot</a>)</p>\n"
+          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://flow.neos.io/\">Flow</a> is a PHP web application framework developed for the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.neos.io/\">Neos</a> project.</p>\n<p>We used Flow in a couple of projects and decided to put it on hold for the following reasons:</p>\n<ul>\n<li>  slow during development and hard to debug because of its need to &quot;compile&quot; the application to integrate e.g. AOP</li>\n<li>  limited documentation and community</li>\n<li>  development of the framework is closely coupled to the progress of the Neos project</li>\n</ul>\n<p>Although it could be that some of the above-mentioned aspects have improved in the past, we decided to use other PHP frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/\">Symfony</a> or other Languages (See <a href=\"/techradar/deep-discipline-expertise/go-lang.html\">Go</a>; <a href=\"/techradar/deep-discipline-expertise/play-framework.html\">Play Framework</a>; <a href=\"/techradar/deep-discipline-expertise/spring-boot.html\">Spring Boot</a>)</p>\n"
         }
       ],
       "name": "flow",
       "title": "Flow",
       "ring": "hold",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://flow.neos.io/\">Flow</a> is a PHP web application framework developed for the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.neos.io/\">Neos</a> project.</p>\n<p>We used Flow in a couple of projects and decided to put it on hold for the following reasons:</p>\n<ul>\n<li>  slow during development and hard to debug because of its need to &quot;compile&quot; the application to integrate e.g. AOP</li>\n<li>  limited documentation and community</li>\n<li>  development of the framework is closely coupled to the progress of the Neos project</li>\n</ul>\n<p>Although it could be that some of the above-mentioned aspects have improved in the past, we decided to use other PHP frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/\">Symfony</a> or other Languages (See <a href=\"/techradar/languages-and-frameworks/go-lang.html\">Go</a>; <a href=\"/techradar/languages-and-frameworks/play-framework.html\">Play Framework</a>; <a href=\"/techradar/languages-and-frameworks/spring-boot.html\">Spring Boot</a>)</p>\n",
+      "quadrant": "deep-discipline-expertise",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://flow.neos.io/\">Flow</a> is a PHP web application framework developed for the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.neos.io/\">Neos</a> project.</p>\n<p>We used Flow in a couple of projects and decided to put it on hold for the following reasons:</p>\n<ul>\n<li>  slow during development and hard to debug because of its need to &quot;compile&quot; the application to integrate e.g. AOP</li>\n<li>  limited documentation and community</li>\n<li>  development of the framework is closely coupled to the progress of the Neos project</li>\n</ul>\n<p>Although it could be that some of the above-mentioned aspects have improved in the past, we decided to use other PHP frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/\">Symfony</a> or other Languages (See <a href=\"/techradar/deep-discipline-expertise/go-lang.html\">Go</a>; <a href=\"/techradar/deep-discipline-expertise/play-framework.html\">Play Framework</a>; <a href=\"/techradar/deep-discipline-expertise/spring-boot.html\">Spring Boot</a>)</p>\n",
       "info": "",
       "release": "2018-03-01",
       "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\flow.md"
@@ -1498,7 +1498,7 @@
           "release": "2019-11-01",
           "title": "Go / Golang",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\go-lang.md",
           "body": "<p>We have moved Go to &quot;adopt&quot;.</p>\n"
         },
@@ -1507,7 +1507,7 @@
           "release": "2018-03-01",
           "title": "Go / Golang",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\go-lang.md",
           "body": "<p>We have moved Go to Trial because multiple teams have used Go with success for different services and tools.\nThe learning curve and productivity have proven to be immense and we are convinced that this language will find more adoption in other teams.</p>\n"
         },
@@ -1516,7 +1516,7 @@
           "release": "2017-03-01",
           "title": "Go / Golang",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\go-lang.md",
           "body": "<p>2016 was the year of Go, with a lot of Open Source projects gaining a lot of attention and many companies started to use it.</p>\n<p>Go went from #54 to #13 on the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.tiobe.com/tiobe-index/\">TIOBE index</a> in January 2017, and it became the TIOBE programming language of the year 2016.</p>\n<p>Here at AOE, we use several services written in Go on a daily basis, such as Mattermost, Docker, Consul and Kubernetes. Also, more and more applications, such as Gitlab, incorporate Go-based services to &quot;off load&quot; heavy work.</p>\n<p>Go, as a programming language, has some very interesting features such as native support for concurrency (go routines), static compiled binaries with a very small memory footprint, cross compiling and much more. A big advantage of Go is the very flat learning curve, which allows developers from more dynamic languages such as PHP to be proficient in a very short time.</p>\n<p>If you want to get a feeling for Go, you should start with the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://tour.golang.org/welcome/1\">online tour</a>, within a day you&#39;ll have a good understanding of the core concepts, syntax, etc. - that is also because the language often tries to provide only one simple way of doing things; an example for this is that code formatting and styling is defined (yet not enforced as in Python). Part of this is also that Go itself is very opinionated: So, for example, for object oriented programming in Go, composition is the prefered way of defining data structures, and some might miss advanced concepts such as inheritance.</p>\n<p>We currently use Go for projects and microservices where we need flexibility and performance.</p>\n"
         }
@@ -1524,7 +1524,7 @@
       "name": "go-lang",
       "title": "Go / Golang",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>We have moved Go to &quot;adopt&quot;.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -1541,14 +1541,14 @@
           "ring": "adopt",
           "quadrant": "tools",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\gradle.md",
-          "body": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/tools/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/languages-and-frameworks/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>\n"
+          "body": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/tools/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/deep-discipline-expertise/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>\n"
         }
       ],
       "name": "gradle",
       "title": "Gradle",
       "ring": "adopt",
       "quadrant": "tools",
-      "body": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/tools/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/languages-and-frameworks/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>\n",
+      "body": "<p>Gradle is a build automation tool originating in the Java space, providing declarative dependency management (like Maven) and support for custom functionality (like Ant). It has superb multi-project support and is extremely extensible via third-party plugins and also via self-written extensions and plugins that make it outstanding in its area.</p>\n<p>It uses a Groovy-based DSL to declaratively model your problem domain (Build automation) and provides a rich object model with extension points to customize the build logic. Because it is extremely easy to extend this DSL, you can easily provide a declarative interface to your customizations and add-ons.</p>\n<p>While providing plugins for building libs, apps and webapps in Java, Groovy and Scala out of the box it is not tied to the JVM as target platform, which is impressively shown by the native build support for C / C++.</p>\n<p>At AOE, it is used in various places already: to build <a href=\"/techradar/tools/anypoint-platform.html\">Anypoint</a>- and <a href=\"/techradar/deep-discipline-expertise/spring-boot.html\">Spring Boot-</a> based applications; to build Android Apps; to automate the creation of Jenkins Jobs; to create Docker images and Debian packages and also do some deployment scripting with it.</p>\n",
       "info": "",
       "release": "2017-03-01",
       "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\gradle.md"
@@ -1596,14 +1596,14 @@
           "ring": "adopt",
           "quadrant": "methods-and-patterns",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\graphql.md",
-          "body": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/tools/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/languages-and-frameworks/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>\n"
+          "body": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/tools/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/deep-discipline-expertise/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>\n"
         }
       ],
       "name": "graphql",
       "title": "GraphQL",
       "ring": "adopt",
       "quadrant": "methods-and-patterns",
-      "body": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/tools/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/languages-and-frameworks/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>\n",
+      "body": "<p>GraphQL is a query language for your API, and a server-side runtime for executing queries by using a type system you define for your data. GraphQL isn&#39;t tied to any specific database or storage engine and is instead backed by your existing code and data.</p>\n<p>GraphQL was developed by Facebook around 2010 and releases 2015. \nThe main challenge it solves is to improve communication between browser and server on high dynamic web apps.</p>\n<p>The advantages are:</p>\n<ul>\n<li>schema and schema validation together with a useful type system</li>\n<li>the client (browser) controls what data should be send (data reduction)</li>\n<li>whith one request you can fetch &quot;all&quot; required data</li>\n</ul>\n<p>We are using it together with <a href=\"/techradar/tools/apollo-client.html\">Apollo Client</a> in our <a href=\"/techradar/deep-discipline-expertise/react.html\">React.js</a> based frontend.\nThis way the React components have their relevant GraphQL snippet, defining what data they request or mutate from the &quot;backend for frontend&quot;, directly coupled. \nThat makes it transparent what data is available. Apollo takes care of sending an aggregated GraphQL query to the backend.</p>\n<p>The framework <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.flamingo.me/3.%20Flamingo%20Modules/graphql.html\">Flamingo offers support for GraphQL</a> and also Flamingo Commerce offers a full featured GraphQL API for e-commerce features. (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://demoshop.flamingo.me/en/graphql-console\">Example GraphQL Console for Commerce</a>)</p>\n",
       "info": "",
       "release": "2019-11-01",
       "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\graphql.md"
@@ -1617,7 +1617,7 @@
           "release": "2019-11-01",
           "title": "Groovy",
           "ring": "hold",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\groovy.md",
           "body": "<p>Since the rise of Kotlin, we seen no need why to still use Groovy as an alternative to Java running on the JVM.</p>\n"
         },
@@ -1626,15 +1626,15 @@
           "release": "2017-03-01",
           "title": "Groovy",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\groovy.md",
-          "body": "<p>Groovy is a dynamically typed compiled language running on the JVM. It is easy to learn as it provides a familiar syntax for Java programmers, but also offers advanced features such as closures and makes some mandatory Java syntax requirements optional to enhance the conciseness of the code. These features make Groovy especially well-suited for scripting and domain-specific languages. This is used by popular tools such as Gradle or Spock.</p>\n<p>At AOE, Groovy is used in many projects and areas. We use Gradle as a build system, we carry out unit and integration testing with Spock and Geb, we generate Jenkins jobs with JobDSL and we implement complete services with Groovy and <a href=\"/techradar/languages-and-frameworks/spring-boot.html\">Spring Boot</a>.</p>\n"
+          "body": "<p>Groovy is a dynamically typed compiled language running on the JVM. It is easy to learn as it provides a familiar syntax for Java programmers, but also offers advanced features such as closures and makes some mandatory Java syntax requirements optional to enhance the conciseness of the code. These features make Groovy especially well-suited for scripting and domain-specific languages. This is used by popular tools such as Gradle or Spock.</p>\n<p>At AOE, Groovy is used in many projects and areas. We use Gradle as a build system, we carry out unit and integration testing with Spock and Geb, we generate Jenkins jobs with JobDSL and we implement complete services with Groovy and <a href=\"/techradar/deep-discipline-expertise/spring-boot.html\">Spring Boot</a>.</p>\n"
         }
       ],
       "name": "groovy",
       "title": "Groovy",
       "ring": "hold",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Since the rise of Kotlin, we seen no need why to still use Groovy as an alternative to Java running on the JVM.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -1649,7 +1649,7 @@
           "release": "2019-11-01",
           "title": "GRPC",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\grpc.md",
           "body": "<p>We adopted GRPC, because its used on multiple places within our microservice oriented architectures for internal communication.</p>\n"
         },
@@ -1658,7 +1658,7 @@
           "release": "2018-03-01",
           "title": "GRPC",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\grpc.md",
           "body": "<p>gRPC, &quot;A high-performance, Open Source, universal RPC framework,&quot; is a framework to easily connect clients and servers in an RPC setup.\ngRPC was initially built at Google, and uses protobuf service definitions for method and payload specification.\nEssentially, this makes it possible to define methods that a server exposes, with either a single payload or an incoming stream - either as a single response or a stream of responses.\nThe definition itself is carried out with the help of protobuf to define message types and method signatures, and then client and server interfaces are compiled for the language(s) you want. Currently there is support for languages such as C++, Java, Python, Go and many more.\nThe shared language-neutral protobuf definition allows you to create all code for all languages automatically and helps with the interoperability of different systems.</p>\n<p>From a technical point of view, gRPC uses HTTP/2 as a transport, directly benefitting from the default TLS encryption.\nBesides gRPC, other frameworks also use protobuf RPC definitions. These frameworks include twirp from twitch, which makes it easy to change the transport/control layer with only very small changes to the application code.</p>\n<p>We at AOE plan to assess gRPC for microservice architectures which are more RPC style and less REST style.</p>\n"
         }
@@ -1666,7 +1666,7 @@
       "name": "grpc",
       "title": "GRPC",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>We adopted GRPC, because its used on multiple places within our microservice oriented architectures for internal communication.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -2045,7 +2045,7 @@
           "release": "2019-11-01",
           "title": "Kotlin",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\kotlin.md",
           "body": "<p>Kotlin is used successfully in production by multiple teams.</p>\n<p>Kotlin is 100% interoperable with Java. It means the code can live side-by-side in one code base and interact.\nFrom the beginning it was designed with practical thought in mind. So the IDE Support in IntelliJ is really great.  </p>\n<p>The Spring Framework Developer put a lot of effort that Springs play well together with Kotlin. </p>\n<p>With it&#39;s concise syntax, null safety, \nDue to its explicit type system, this language is also great replacement for Groovy usage with Gradle.</p>\n"
         }
@@ -2053,7 +2053,7 @@
       "name": "kotlin",
       "title": "Kotlin",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Kotlin is used successfully in production by multiple teams.</p>\n<p>Kotlin is 100% interoperable with Java. It means the code can live side-by-side in one code base and interact.\nFrom the beginning it was designed with practical thought in mind. So the IDE Support in IntelliJ is really great.  </p>\n<p>The Spring Framework Developer put a lot of effort that Springs play well together with Kotlin. </p>\n<p>With it&#39;s concise syntax, null safety, \nDue to its explicit type system, this language is also great replacement for Groovy usage with Gradle.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -2240,7 +2240,7 @@
           "release": "2019-11-01",
           "title": "Next.js",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\next-js.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nextjs.org/\">Next.js</a> is a JavaScript and React based framework which makes use of server side rendering.</p>\n"
         }
@@ -2248,7 +2248,7 @@
       "name": "next-js",
       "title": "Next.js",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nextjs.org/\">Next.js</a> is a JavaScript and React based framework which makes use of server side rendering.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -2270,7 +2270,7 @@
           "release": "2017-03-01",
           "title": "node.js",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\node-js.md",
           "body": "<p>Node.js is a no- browser JavaScript execution runtime. Its basis is Google&#39;s V8 engine. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nodejs.org/en/\">Node</a> is event-driven and follows a non-blocking I/O model.</p>\n<p>It’s a good choice for restful APIs, realtime purposes or situations where many concurrent connections are expected, where each connection has a lightweight memory footprint.</p>\n<p>Node allows separation of concerns by using its package manager <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">npm</a>, which is also the largest ecosystem of Open Source libraries (modules).</p>\n<p>Modules are added as dependencies and offer a wide range of functionalities in a range from simple helper functions to mature web frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://expressjs.com/de/\">express.js</a>.</p>\n<p>Many PaaS providers (AWS, Google Cloud Platform, Azure) support node, including deployment and monitoring services out of the box for scalable stateless applications.</p>\n<p>At AOE, we successfully use node.js-based applications for smaller services or internal tools such dashboards.</p>\n"
         }
@@ -2278,7 +2278,7 @@
       "name": "node-js",
       "title": "node.js",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Node.js is a no- browser JavaScript execution runtime. Its basis is Google&#39;s V8 engine. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nodejs.org/en/\">Node</a> is event-driven and follows a non-blocking I/O model.</p>\n<p>It’s a good choice for restful APIs, realtime purposes or situations where many concurrent connections are expected, where each connection has a lightweight memory footprint.</p>\n<p>Node allows separation of concerns by using its package manager <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">npm</a>, which is also the largest ecosystem of Open Source libraries (modules).</p>\n<p>Modules are added as dependencies and offer a wide range of functionalities in a range from simple helper functions to mature web frameworks such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://expressjs.com/de/\">express.js</a>.</p>\n<p>Many PaaS providers (AWS, Google Cloud Platform, Azure) support node, including deployment and monitoring services out of the box for scalable stateless applications.</p>\n<p>At AOE, we successfully use node.js-based applications for smaller services or internal tools such dashboards.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -2319,14 +2319,14 @@
           "ring": "adopt",
           "quadrant": "tools",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\npm.md",
-          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/tools/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/tools/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/methods-and-patterns/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/languages-and-frameworks/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/platforms-and-aoe-services/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/languages-and-frameworks/node-js.html\">node.js</a> )</li>\n</ul>\n"
+          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/tools/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/tools/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/methods-and-patterns/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/deep-discipline-expertise/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/platforms-and-aoe-services/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/deep-discipline-expertise/node-js.html\">node.js</a> )</li>\n</ul>\n"
         }
       ],
       "name": "npm",
       "title": "NPM",
       "ring": "adopt",
       "quadrant": "tools",
-      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/tools/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/tools/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/methods-and-patterns/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/languages-and-frameworks/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/platforms-and-aoe-services/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/languages-and-frameworks/node-js.html\">node.js</a> )</li>\n</ul>\n",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/\">NPM</a> is one of, if not the most, popular package manager for JavaScript. Because of the big community, you can find nearly every dependency in npm.</p>\n<p>Instead of other package managers such as <a href=\"/techradar/tools/bower.html\">bower</a>, you have to write your packages as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://en.wikipedia.org/wiki/CommonJS\">modules</a>. This unifies the way you have to use, test and, of course, understand dependencies.</p>\n<p>NPM creates a tree for your dependencies and their nesting dependencies. Because of this, you don&#39;t need to handle version conflicts, since every dependency uses there own version of e.g. <a href=\"/techradar/tools/webpack.html\">webpack</a>.</p>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/cli/shrinkwrap\">shrinkwrap</a> you have a robust tool to lock down and manage the versions of your dependencies - following the <a href=\"/techradar/methods-and-patterns/pin-external-dependencies.html\">Pin (external) dependencies</a> approach.</p>\n<p>For each package you have to classify your dependencies:</p>\n<ul>\n<li>  dependencies are needed for use without the need of pre compiling, e.g. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://lodash.com/\">lodash</a></li>\n<li>  devDependencies are needed for development only, e.g. testing frameworks or pre compiler e.g. <a href=\"/techradar/deep-discipline-expertise/babel.html\">babel</a></li>\n<li>  peerDependencies you have to provide for using the package</li>\n</ul>\n<p>With <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://docs.npmjs.com/misc/scripts\">scripts</a> you get support for the most common build lifecycle steps, e.g. build, start, test ...</p>\n<p>Other useful features:</p>\n<ul>\n<li>  mirror support for your own repository (e.g. <a href=\"/techradar/platforms-and-aoe-services/artifactory.html\">artifactory</a>)</li>\n<li>  can be used for server and client JavaScript development (see <a href=\"/techradar/deep-discipline-expertise/node-js.html\">node.js</a> )</li>\n</ul>\n",
       "info": "",
       "release": "2019-11-01",
       "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\npm.md"
@@ -2343,14 +2343,14 @@
           "quadrant": "tools",
           "featured": true,
           "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\nx.md",
-          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nx.dev/\">Nx</a> is a suite of powerful, extensible dev tools to help you architect, test, and build at any scale.\nIt is mainly applicable in the environment of React, Angular and Node.js and tries to simplify and streamline the work in a mono repo.</p>\n<p>At AOE, we are currently taking our first steps with NX in a mono repo that is home to both our React and Next.js based frontend and our <a href=\"/techradar/languages-and-frameworks/go-lang.html\">Go</a> / <a href=\"/techradar/languages-and-frameworks/flamingo.html\">Flamingo</a> based backend.</p>\n<p>The integration with the Node.js components (React, Next.js, Cypress) works smoothly and brings the expected benefits such as faster build times through intelligent caching.\nSupport for Go is currently only rudimentary, which is why NX still has to prove itself in this area.</p>\n<p>Especially in the environment of Node.js in combination with the use of a mono repo, NX is worth a look.</p>\n"
+          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nx.dev/\">Nx</a> is a suite of powerful, extensible dev tools to help you architect, test, and build at any scale.\nIt is mainly applicable in the environment of React, Angular and Node.js and tries to simplify and streamline the work in a mono repo.</p>\n<p>At AOE, we are currently taking our first steps with NX in a mono repo that is home to both our React and Next.js based frontend and our <a href=\"/techradar/deep-discipline-expertise/go-lang.html\">Go</a> / <a href=\"/techradar/deep-discipline-expertise/flamingo.html\">Flamingo</a> based backend.</p>\n<p>The integration with the Node.js components (React, Next.js, Cypress) works smoothly and brings the expected benefits such as faster build times through intelligent caching.\nSupport for Go is currently only rudimentary, which is why NX still has to prove itself in this area.</p>\n<p>Especially in the environment of Node.js in combination with the use of a mono repo, NX is worth a look.</p>\n"
         }
       ],
       "name": "nx",
       "title": "NX",
       "ring": "assess",
       "quadrant": "tools",
-      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nx.dev/\">Nx</a> is a suite of powerful, extensible dev tools to help you architect, test, and build at any scale.\nIt is mainly applicable in the environment of React, Angular and Node.js and tries to simplify and streamline the work in a mono repo.</p>\n<p>At AOE, we are currently taking our first steps with NX in a mono repo that is home to both our React and Next.js based frontend and our <a href=\"/techradar/languages-and-frameworks/go-lang.html\">Go</a> / <a href=\"/techradar/languages-and-frameworks/flamingo.html\">Flamingo</a> based backend.</p>\n<p>The integration with the Node.js components (React, Next.js, Cypress) works smoothly and brings the expected benefits such as faster build times through intelligent caching.\nSupport for Go is currently only rudimentary, which is why NX still has to prove itself in this area.</p>\n<p>Especially in the environment of Node.js in combination with the use of a mono repo, NX is worth a look.</p>\n",
+      "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://nx.dev/\">Nx</a> is a suite of powerful, extensible dev tools to help you architect, test, and build at any scale.\nIt is mainly applicable in the environment of React, Angular and Node.js and tries to simplify and streamline the work in a mono repo.</p>\n<p>At AOE, we are currently taking our first steps with NX in a mono repo that is home to both our React and Next.js based frontend and our <a href=\"/techradar/deep-discipline-expertise/go-lang.html\">Go</a> / <a href=\"/techradar/deep-discipline-expertise/flamingo.html\">Flamingo</a> based backend.</p>\n<p>The integration with the Node.js components (React, Next.js, Cypress) works smoothly and brings the expected benefits such as faster build times through intelligent caching.\nSupport for Go is currently only rudimentary, which is why NX still has to prove itself in this area.</p>\n<p>Especially in the environment of Node.js in combination with the use of a mono repo, NX is worth a look.</p>\n",
       "info": "",
       "release": "2021-01-01",
       "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\nx.md"
@@ -2512,7 +2512,7 @@
           "release": "2017-03-01",
           "title": "PHP7 over PHP5",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\php7-over-php5.md",
           "body": "<p>PHP 5 has been around for a very long time, and can be considered as the PHP version that defined where PHP wants to go in the future.\nWith proper OOP, support for clojures and a steadily improving type system, it has become a very mature language.\nHowever, in the past 3 years, Facebook introduced HHVM, which became a major influence on PHP 7 and eventually brought a lot of improvements not only for the execution speed, but also with proper type hints and other features.</p>\n<p>Here at AOE, we have numerous PHP projects, and we often kept it backwards-compatible to make sure that it will run on older systems. This is comparable to the procedure most frameworks (Magento, OroPlatform and derived projects) use.</p>\n<p>Now, PHP 5 has reached its end--of-life, and it is time to discontinue the backqards-compatibility in favor of better and more stable applications.\nEven though we can use the PHP 7 runtime while being PHP 5-compatible, it is not considered good practice anymore, as we can now rely on the PHP 7 features and use all of its advantages.</p>\n<p>One of the major points PHP 7 supports is proper typehinting and return types (apart from PhpDocs), which makes <a href=\"/techradar/tools/phan.html\">static analysis</a> much easier and can improve the overall code quality significantly.</p>\n"
         }
@@ -2520,7 +2520,7 @@
       "name": "php7-over-php5",
       "title": "PHP7 over PHP5",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>PHP 5 has been around for a very long time, and can be considered as the PHP version that defined where PHP wants to go in the future.\nWith proper OOP, support for clojures and a steadily improving type system, it has become a very mature language.\nHowever, in the past 3 years, Facebook introduced HHVM, which became a major influence on PHP 7 and eventually brought a lot of improvements not only for the execution speed, but also with proper type hints and other features.</p>\n<p>Here at AOE, we have numerous PHP projects, and we often kept it backwards-compatible to make sure that it will run on older systems. This is comparable to the procedure most frameworks (Magento, OroPlatform and derived projects) use.</p>\n<p>Now, PHP 5 has reached its end--of-life, and it is time to discontinue the backqards-compatibility in favor of better and more stable applications.\nEven though we can use the PHP 7 runtime while being PHP 5-compatible, it is not considered good practice anymore, as we can now rely on the PHP 7 features and use all of its advantages.</p>\n<p>One of the major points PHP 7 supports is proper typehinting and return types (apart from PhpDocs), which makes <a href=\"/techradar/tools/phan.html\">static analysis</a> much easier and can improve the overall code quality significantly.</p>\n",
       "info": "",
       "release": "2018-03-01",
@@ -2623,16 +2623,16 @@
           "release": "2017-03-01",
           "title": "Play Framework",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\play-framework.md",
-          "body": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/languages-and-frameworks/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>\n"
+          "body": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/deep-discipline-expertise/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>\n"
         }
       ],
       "name": "play-framework",
       "title": "Play Framework",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
-      "body": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/languages-and-frameworks/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>\n",
+      "quadrant": "deep-discipline-expertise",
+      "body": "<p>The Play Framework is a lightweight (web)application framework for Java and <a href=\"/techradar/deep-discipline-expertise/scala-lang.html\">Scala</a> programmers.</p>\n<p>A developer can choose from different modules to include necessary functionality such s accessing http resources, databases, and so on. As a consequence, the developer can choose, and is not distracted by or clobbered with irrelevant things. This approach is considered as minimalistic, but it is easy to include necessary functionality.</p>\n<p>Regarding the architecture, Play is stateless and built on Akka. As a consequence, Play applications have much lower resource consumption regarding CPU und memory and can scale easily. Play manages concurrency without binding a request to a thread until the response is ready.</p>\n<p>With the use of &quot;<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://docs.scala-lang.org/overviews/core/futures.html\">Futures</a>&quot; in your code you can turn synchronous tasks (such as IO or API call to another service) into asynchronous and you can build non-blocking applications. It is recommended to understand the principles Play uses to achieve performance and scalability.</p>\n<p>Play can act as backend service delivering JSON, for esample. For building web applications. the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.playframework.com/documentation/2.5.x/ScalaTemplates\">Twirl</a> template engine enables server-side rendering of html pages. These html pages can include css and java script parts of your own choice.</p>\n",
       "info": "",
       "release": "2019-11-01",
       "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\play-framework.md"
@@ -2680,14 +2680,14 @@
           "ring": "adopt",
           "quadrant": "tools",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\postcss.md",
-          "body": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it´s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/languages-and-frameworks/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>\n"
+          "body": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it´s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/deep-discipline-expertise/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>\n"
         }
       ],
       "name": "postcss",
       "title": "PostCSS",
       "ring": "adopt",
       "quadrant": "tools",
-      "body": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it´s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/languages-and-frameworks/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>\n",
+      "body": "<p>PostCSS is a tool for transforming stylesheets with JavaScript plugins. It comes with a parser that reads your CSS file into an AST, pipes it through the loaded plugins and finally\nstringifies it back into a (transformed) CSS output file.</p>\n<p>We at AOE love PostCSS because it gives us the power to use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/css-modules/css-modules\">CSS Modules</a>, which finally ends the curse of global CSS.</p>\n<p>It also has a huge list of more than 350 other <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://postcss.parts/\">available plugins</a>.\nSure, not all of them are useful, but the sheer number of plugins shows how easy it is to write your own plugin for it.\nIn fact, it´s just a matter of writing a single JS function.</p>\n<p>Finally, PostCSS is very fast and easy to setup because it runs 100% in JavaScript.\nCompared to <a href=\"/techradar/deep-discipline-expertise/sass.html\">SASS</a> as a preprocessor, it feels much more powerful but at the same time less bloated with superfluous functionality because everything comes in its own little plugin</p>\n",
       "info": "",
       "release": "2017-03-01",
       "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\postcss.md"
@@ -2772,7 +2772,7 @@
           "release": "2017-03-01",
           "title": "Protobuf",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\protobuf.md",
           "body": "<p>In an increasingly microservice-oriented environment, it is crucial that all parties agree on a common language and wire format for data exchange.</p>\n<p>JSON and XML are two well-known formats for serialization of data; however, they come with a few drawbacks. JSON is completely dynamic without any validation (though there is json-schema) and XML uses an extremely heavyweight syntax, which carries a huge overhead, so parsing and transport becomes quite slow.</p>\n<p>Protobuf, amongst others, is an approach to solving this problem by using well-defined schemas to create language-specific code, which serializes/marshals and deserializes/unmarshals data. One of the key features is the built-in support for evolving schemas; it is easily possible to incrementally extend the definition while staying backwards-compatible and compose messages consisting of several sub-messages.</p>\n<p>If you are looking for a way to have different systems agree on a common protocol on top of a transport layer (such as AMQP or HTTP), Protobuf is definitely worth examining more closely and should be assessed.</p>\n"
         }
@@ -2780,7 +2780,7 @@
       "name": "protobuf",
       "title": "Protobuf",
       "ring": "assess",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>In an increasingly microservice-oriented environment, it is crucial that all parties agree on a common language and wire format for data exchange.</p>\n<p>JSON and XML are two well-known formats for serialization of data; however, they come with a few drawbacks. JSON is completely dynamic without any validation (though there is json-schema) and XML uses an extremely heavyweight syntax, which carries a huge overhead, so parsing and transport becomes quite slow.</p>\n<p>Protobuf, amongst others, is an approach to solving this problem by using well-defined schemas to create language-specific code, which serializes/marshals and deserializes/unmarshals data. One of the key features is the built-in support for evolving schemas; it is easily possible to incrementally extend the definition while staying backwards-compatible and compose messages consisting of several sub-messages.</p>\n<p>If you are looking for a way to have different systems agree on a common protocol on top of a transport layer (such as AMQP or HTTP), Protobuf is definitely worth examining more closely and should be assessed.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -2882,7 +2882,7 @@
           "release": "2019-11-01",
           "title": "RAML",
           "ring": "hold",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\raml.md",
           "body": "<p>Since the RAML project has decided to <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blogs.mulesoft.com/dev/api-dev/open-api-raml-better-together/\">join</a> the OpenAPI initiative and the RAML ecosystem lacks further development and additional tools, we decided to  use and recommend using <a href=\"/techradar/tools/open-api.html\">&quot;OpenAPI specififcation (OAS)&quot;</a> as description standard instead.</p>\n<p>RAML still provides advantages in modeling an API through it&#39;s more expressive modeling language and can produce OAS</p>\n"
         },
@@ -2899,7 +2899,7 @@
       "name": "raml",
       "title": "RAML",
       "ring": "hold",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Since the RAML project has decided to <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://blogs.mulesoft.com/dev/api-dev/open-api-raml-better-together/\">join</a> the OpenAPI initiative and the RAML ecosystem lacks further development and additional tools, we decided to  use and recommend using <a href=\"/techradar/tools/open-api.html\">&quot;OpenAPI specififcation (OAS)&quot;</a> as description standard instead.</p>\n<p>RAML still provides advantages in modeling an API through it&#39;s more expressive modeling language and can produce OAS</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -2914,7 +2914,7 @@
           "release": "2018-03-01",
           "title": "React.js",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\react.md",
           "body": "<p>The past months have shown that React is still a great fit for us for frontend-heavy\napplications. With its rewritten core in version 16, Facebook shows how\nimportant this framework is for them. Therefore, Facebook is investing a lot of effort into React and a\nhealthy community. In addition, we <strong>REALLY</strong> enjoy writing React\ncomponents – so much so, that we have to move this library into <strong>adopt</strong>!</p>\n"
         },
@@ -2923,7 +2923,7 @@
           "release": "2017-03-01",
           "title": "React.js",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\react.md",
           "body": "<p>React claims to be &quot;the V in MVC&quot;. But for us it is much more than that. React\nimproved the way we approach frontend applications as we build them. Its\nfunctional way of writing components and its declarative JSX syntax help us to\nbuild interactive UIs very efficiently. React&#39;s one-way data flow keeps\neverything modular and fast and makes even large applications more readable.</p>\n<p>Components are the central point of React - once we fully started\n<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://facebook.github.io/react/docs/thinking-in-react.html\">thinking in react</a>,\nour components became smaller, more reusable and better testable.</p>\n<p>After some 1.5 years of experience with React and the steady growth of the\ncommunity and ecosystem around it, we can confidently say that we still see\ngreat protential to build upcoming projects with React.</p>\n"
         }
@@ -2931,7 +2931,7 @@
       "name": "react",
       "title": "React.js",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>The past months have shown that React is still a great fit for us for frontend-heavy\napplications. With its rewritten core in version 16, Facebook shows how\nimportant this framework is for them. Therefore, Facebook is investing a lot of effort into React and a\nhealthy community. In addition, we <strong>REALLY</strong> enjoy writing React\ncomponents – so much so, that we have to move this library into <strong>adopt</strong>!</p>\n",
       "info": "",
       "release": "2018-03-01",
@@ -2957,7 +2957,7 @@
           "ring": "trial",
           "quadrant": "methods-and-patterns",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\reactive-programming.md",
-          "body": "<p>Classic (web-) applications typically consist of transactions that submit\nlarge forms to the server side, which then processes these and, in response, returns HTML\nfor the browser to render. Today&#39;s applications have more and more\nfine-grained &#39;real-time&#39;-like aspects: A simple modification of a form field\ncould trigger a complete roundtrip to the server including other services and\npersistence. Naturally, all of these transactions should respect the\nexpectations of a user who wants a highly interactive application.</p>\n<p>&quot;Reactive Programming&quot; tries to provide an answer to the challanges mentioned above\nby raising the level of abstraction. This allows you to focus on the stream of\nevents that make up your business logic in a responsive, asynchronous fashion.</p>\n<p>There are various descriptions of what Reactive Programming actually is - at\nthe most general level it is programming with asynchronous data streams and\ncontains tools to create, manipulate, combine and filter these streams. Under the term\n&quot;Reactive Programming&quot;, we summarize the principles and implementations that\nunderlie <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://reactivex.io/\">ReactiveX</a> and the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.reactivemanifesto.org/\">Reactive\nManifesto</a>. </p>\n<p>&quot;Reactive Programming&quot; is employed in many of our services – frontend and\nbackend – but not always as an explicitly choosen pattern. As different\nplattforms have different means to tackle this style of programming, we choose\nto include &quot;Reactive Programming&quot; as a general Method and Patterns Item in\naddition to concrete libraries and APIs such as\n<a href=\"languages-and-frameworks/rxjs.html\">Rx.JS</a> or <a href=\"/techradar/languages-and-frameworks/akka-streams.html\">Akka\nStreams</a> to highlight the\nimportance of the approach in general.</p>\n"
+          "body": "<p>Classic (web-) applications typically consist of transactions that submit\nlarge forms to the server side, which then processes these and, in response, returns HTML\nfor the browser to render. Today&#39;s applications have more and more\nfine-grained &#39;real-time&#39;-like aspects: A simple modification of a form field\ncould trigger a complete roundtrip to the server including other services and\npersistence. Naturally, all of these transactions should respect the\nexpectations of a user who wants a highly interactive application.</p>\n<p>&quot;Reactive Programming&quot; tries to provide an answer to the challanges mentioned above\nby raising the level of abstraction. This allows you to focus on the stream of\nevents that make up your business logic in a responsive, asynchronous fashion.</p>\n<p>There are various descriptions of what Reactive Programming actually is - at\nthe most general level it is programming with asynchronous data streams and\ncontains tools to create, manipulate, combine and filter these streams. Under the term\n&quot;Reactive Programming&quot;, we summarize the principles and implementations that\nunderlie <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://reactivex.io/\">ReactiveX</a> and the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.reactivemanifesto.org/\">Reactive\nManifesto</a>. </p>\n<p>&quot;Reactive Programming&quot; is employed in many of our services – frontend and\nbackend – but not always as an explicitly choosen pattern. As different\nplattforms have different means to tackle this style of programming, we choose\nto include &quot;Reactive Programming&quot; as a general Method and Patterns Item in\naddition to concrete libraries and APIs such as\n<a href=\"deep-discipline-expertise/rxjs.html\">Rx.JS</a> or <a href=\"/techradar/deep-discipline-expertise/akka-streams.html\">Akka\nStreams</a> to highlight the\nimportance of the approach in general.</p>\n"
         }
       ],
       "name": "reactive-programming",
@@ -2978,7 +2978,7 @@
           "release": "2017-03-01",
           "title": "Redux",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\redux.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/\">Redux</a> helps us to maintain state in our frontend applications in a more predictable and clearer way. It is extendable though middleware, it has a great documentation and some awesome <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-devtools\">devtools</a> that are especially helpful when you are new to Redux.</p>\n<p>The functional concepts for updating the state, combined with immutable data, lead to extremely easy and enjoyable <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/docs/recipes/WritingTests.html\">unit tests</a> - this is maybe the biggest plus for us developers.</p>\n<p>The official <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/reactjs/react-redux\">react-redux bindings</a> also made it straightforward to weave Redux into our React applications. For asynchronous actions we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://redux-saga.github.io/redux-saga/\">redux-sagas</a> which has proven itself as a better alternative for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-thunk\">redux-thunk</a>.</p>\n<p>Currently, we use Redux only in our React projects, but we are evaluating it together with other frameworks such as Angular or Vue.js, as well.</p>\n"
         }
@@ -2986,7 +2986,7 @@
       "name": "redux",
       "title": "Redux",
       "ring": "trial",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/\">Redux</a> helps us to maintain state in our frontend applications in a more predictable and clearer way. It is extendable though middleware, it has a great documentation and some awesome <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-devtools\">devtools</a> that are especially helpful when you are new to Redux.</p>\n<p>The functional concepts for updating the state, combined with immutable data, lead to extremely easy and enjoyable <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://redux.js.org/docs/recipes/WritingTests.html\">unit tests</a> - this is maybe the biggest plus for us developers.</p>\n<p>The official <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/reactjs/react-redux\">react-redux bindings</a> also made it straightforward to weave Redux into our React applications. For asynchronous actions we use <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://redux-saga.github.io/redux-saga/\">redux-sagas</a> which has proven itself as a better alternative for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/gaearon/redux-thunk\">redux-thunk</a>.</p>\n<p>Currently, we use Redux only in our React projects, but we are evaluating it together with other frameworks such as Angular or Vue.js, as well.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -3047,7 +3047,7 @@
           "release": "2021-01-01",
           "title": "Rust",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "featured": true,
           "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\rust.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.rust-lang.org/\">Rust</a> is a young and modern programming language initialy developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://research.mozilla.org/\">Mozilla Research</a>.</p>\n<p>It provides a strict typesystem, compile-time memory-safety, excellent <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doc.rust-lang.org/cargo/\">package manager</a>, objectoriented &amp; functional programming, task-based concurency, good readability and maintainability and many more.\nIt has a C/C++ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf\">comparable efficiency</a> and helps the programmer to avoid unnecessary security-relevant memory-related bugs during compile-time.\nSince every memory-allocation is directly released after it can&#39;t be used anymore (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@rabin_gaire/memory-management-rust-cf65c8465570\">owner deletion</a>), no garbage collection is needed.</p>\n<p>C/C++ code/libraries can be integrated by it&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rust-lang/rust-bindgen\">binding generator tool</a>.</p>\n<p>At stackoverflow it is votes 5 years in a row (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted\">2016</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2017#technology-_-most-loved-dreaded-and-wanted-languages\">2017</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2018#technology-_-most-loved-dreaded-and-wanted-languages\">2018</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2019#technology-_-most-loved-dreaded-and-wanted-languages\">2019</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">2020</a>) for the <code>most loved programming-language</code> by  programmers.\nThe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">popularity</a> is growing continuous.</p>\n<p>With it&#39;s memory-safety/efficiency and energy-efficiency it help&#39;s to save money for bug-fixing, energy and cloud-computing.</p>\n"
@@ -3056,7 +3056,7 @@
       "name": "rust",
       "title": "Rust",
       "ring": "assess",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.rust-lang.org/\">Rust</a> is a young and modern programming language initialy developed by <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://research.mozilla.org/\">Mozilla Research</a>.</p>\n<p>It provides a strict typesystem, compile-time memory-safety, excellent <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://doc.rust-lang.org/cargo/\">package manager</a>, objectoriented &amp; functional programming, task-based concurency, good readability and maintainability and many more.\nIt has a C/C++ <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://greenlab.di.uminho.pt/wp-content/uploads/2017/10/sleFinal.pdf\">comparable efficiency</a> and helps the programmer to avoid unnecessary security-relevant memory-related bugs during compile-time.\nSince every memory-allocation is directly released after it can&#39;t be used anymore (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://medium.com/@rabin_gaire/memory-management-rust-cf65c8465570\">owner deletion</a>), no garbage collection is needed.</p>\n<p>C/C++ code/libraries can be integrated by it&#39;s <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/rust-lang/rust-bindgen\">binding generator tool</a>.</p>\n<p>At stackoverflow it is votes 5 years in a row (<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted\">2016</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2017#technology-_-most-loved-dreaded-and-wanted-languages\">2017</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2018#technology-_-most-loved-dreaded-and-wanted-languages\">2018</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2019#technology-_-most-loved-dreaded-and-wanted-languages\">2019</a>, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">2020</a>) for the <code>most loved programming-language</code> by  programmers.\nThe <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved\">popularity</a> is growing continuous.</p>\n<p>With it&#39;s memory-safety/efficiency and energy-efficiency it help&#39;s to save money for bug-fixing, energy and cloud-computing.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -3094,7 +3094,7 @@
           "release": "2021-01-01",
           "title": "RxJs",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\rxjs.md",
           "body": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community — and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and can fully recommend the approach of observables.</p>\n"
         },
@@ -3103,7 +3103,7 @@
           "release": "2017-03-01",
           "title": "RxJs",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\rxjs.md",
           "body": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community — and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and think that it&#39;s worth to dive deeper into this paradigm.</p>\n"
         }
@@ -3111,7 +3111,7 @@
       "name": "rxjs",
       "title": "RxJs",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community — and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and can fully recommend the approach of observables.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -3126,7 +3126,7 @@
           "release": "2017-03-01",
           "title": "SASS",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\sass.md",
           "body": "<p>SASS (Syntactically Awesome Style-Sheets) is an extension to native CSS, which, as a preprocessor, simplifies the generation of CSS by offering features that enable developers to more efficiently write robust, better readable and maintainable CSS.</p>\n<p>Core features of SASS are:</p>\n<ul>\n<li>  Nesting of rules: CSS rules can be indented, reducing redundancy of selectors and increasing readability due to shorter selectors.</li>\n<li>  Use of variables: Commonly-used values such as colors can be stored in variables</li>\n<li>  Mixins: Often-used CSS blocks can be referenced by using mixins, which work like functions</li>\n<li>  Extends: CSS properties can be inherited</li>\n<li>  SASS files can be split into modules, which leads to smaller files and better file structures</li>\n<li>  Operators: Simple math calculations can be applied to CSS properties</li>\n<li>  Easily to integrate in nodejs-environments and build tools such s <a href=\"/techradar/tools/npm.html\">NPM</a>, <a href=\"/techradar/tools/gulp.html\">Gulp</a> and <a href=\"/techradar/tools/grunt.html\">Grunt</a>.</li>\n</ul>\n<p>SASS has been widely adopted for many years and has evolved to an industry-standard backed by an active community since 2006.</p>\n<p>The learning curve is very smooth as SASS is fully compatible to CSS, meaning that all features are optional: Starting with SASS is as easy as renaming .css-files to .scss in a first step and then refactoring it step-by-step with the use of SASS features.</p>\n<p>At AOE, SASS has been recommended by the frontend COI and is used in nearly every current project.</p>\n<p>More information:</p>\n<ul>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sass-lang.com/\">SASS Language</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sassdoc.com/\">SASSDoc</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.theguardian.com/info/developer-blog/2014/may/13/improving-sass-code-quality-on-theguardiancom\">Improving Sass code quality on</a> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://theguardian.com\">theguardian.com</a></li>\n</ul>\n"
         }
@@ -3134,7 +3134,7 @@
       "name": "sass",
       "title": "SASS",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>SASS (Syntactically Awesome Style-Sheets) is an extension to native CSS, which, as a preprocessor, simplifies the generation of CSS by offering features that enable developers to more efficiently write robust, better readable and maintainable CSS.</p>\n<p>Core features of SASS are:</p>\n<ul>\n<li>  Nesting of rules: CSS rules can be indented, reducing redundancy of selectors and increasing readability due to shorter selectors.</li>\n<li>  Use of variables: Commonly-used values such as colors can be stored in variables</li>\n<li>  Mixins: Often-used CSS blocks can be referenced by using mixins, which work like functions</li>\n<li>  Extends: CSS properties can be inherited</li>\n<li>  SASS files can be split into modules, which leads to smaller files and better file structures</li>\n<li>  Operators: Simple math calculations can be applied to CSS properties</li>\n<li>  Easily to integrate in nodejs-environments and build tools such s <a href=\"/techradar/tools/npm.html\">NPM</a>, <a href=\"/techradar/tools/gulp.html\">Gulp</a> and <a href=\"/techradar/tools/grunt.html\">Grunt</a>.</li>\n</ul>\n<p>SASS has been widely adopted for many years and has evolved to an industry-standard backed by an active community since 2006.</p>\n<p>The learning curve is very smooth as SASS is fully compatible to CSS, meaning that all features are optional: Starting with SASS is as easy as renaming .css-files to .scss in a first step and then refactoring it step-by-step with the use of SASS features.</p>\n<p>At AOE, SASS has been recommended by the frontend COI and is used in nearly every current project.</p>\n<p>More information:</p>\n<ul>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sass-lang.com/\">SASS Language</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sassdoc.com/\">SASSDoc</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.theguardian.com/info/developer-blog/2014/may/13/improving-sass-code-quality-on-theguardiancom\">Improving Sass code quality on</a> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://theguardian.com\">theguardian.com</a></li>\n</ul>\n",
       "info": "",
       "release": "2017-03-01",
@@ -3149,7 +3149,7 @@
           "release": "2018-03-01",
           "title": "Scala Lang",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\scala-lang.md",
           "body": "<p>Scala is used in many projects at AOE. We have therefore moved it to the <strong>adopt</strong> level.</p>\n"
         },
@@ -3158,7 +3158,7 @@
           "release": "2017-03-01",
           "title": "Scala Lang",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\scala-lang.md",
           "body": "<p>Besides Java, Scala is the most mature language on the Java Virtual Machine. Its unique blend of object-oriented and functional language features and rich type system with advanced type inference enables one to write concise code.</p>\n<p>It is fully interoperable with Java but has a big ecosystem of tools and frameworks on its own.</p>\n<p>Scala provides one of the best high-level concurrency- and async features on the language level as well as on the framework level, making it the default choice of twitter and the like.</p>\n<p>At AOE, we already use Scala in various projects to create scalable backend systems (Play, Akka) or for batch processing (Spark).</p>\n"
         }
@@ -3166,7 +3166,7 @@
       "name": "scala-lang",
       "title": "Scala Lang",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Scala is used in many projects at AOE. We have therefore moved it to the <strong>adopt</strong> level.</p>\n",
       "info": "",
       "release": "2018-03-01",
@@ -3314,7 +3314,7 @@
           "release": "2017-03-01",
           "title": "Spock + Geb",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\spock_geb.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.spockframework.org\">spockframework.org</a> - Spock is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. Thanks to its JUnit runner, Spock is compatible with most IDEs, build tools and continuous integration servers. Spock is inspired from JUnit, jMock, RSpec, Groovy, Scala, Vulcans, and other fascinating life forms.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.gebish.org\">gebish.org</a> - Geb is a browser automation solution. It brings together the power of WebDriver, the elegance of jQuery content selection, the robustness of Page Object modelling and the expressiveness of the Groovy language. It can be used for scripting, scraping and general automation or equally as a functional/web/acceptance testing solution via integration with testing frameworks such as Spock, JUnit &amp; TestNG.</p>\n<p>At AOE, we use Spock in combination with Geb in various projects for black-box testing. Mainly, we implement our functional integration and acceptance testing automation with these frameworks, which work together seamlessly. And, we also like the convenience of extending the tests with Groovy built-ins or custom extensions.</p>\n<p>Because of the successful use in two of our large projects and the wide range of opportunities within the testing domain with Spock and Geb, we classify this combo with adopt.</p>\n<!--except-->\n\n"
         }
@@ -3322,7 +3322,7 @@
       "name": "spock_geb",
       "title": "Spock + Geb",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.spockframework.org\">spockframework.org</a> - Spock is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. Thanks to its JUnit runner, Spock is compatible with most IDEs, build tools and continuous integration servers. Spock is inspired from JUnit, jMock, RSpec, Groovy, Scala, Vulcans, and other fascinating life forms.</p>\n<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://www.gebish.org\">gebish.org</a> - Geb is a browser automation solution. It brings together the power of WebDriver, the elegance of jQuery content selection, the robustness of Page Object modelling and the expressiveness of the Groovy language. It can be used for scripting, scraping and general automation or equally as a functional/web/acceptance testing solution via integration with testing frameworks such as Spock, JUnit &amp; TestNG.</p>\n<p>At AOE, we use Spock in combination with Geb in various projects for black-box testing. Mainly, we implement our functional integration and acceptance testing automation with these frameworks, which work together seamlessly. And, we also like the convenience of extending the tests with Groovy built-ins or custom extensions.</p>\n<p>Because of the successful use in two of our large projects and the wide range of opportunities within the testing domain with Spock and Geb, we classify this combo with adopt.</p>\n<!--except-->\n\n",
       "info": "",
       "release": "2017-03-01",
@@ -3337,7 +3337,7 @@
           "release": "2019-11-01",
           "title": "Spring Boot",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\spring-boot.md",
           "body": "<p>We now have several years of experiences with Spring Boot, \nand a big projects Microservice Environment runs completely on Spring Boot, \nso it&#39;s time to update it to &quot;adopt&quot;.</p>\n"
         },
@@ -3346,7 +3346,7 @@
           "release": "2018-03-01",
           "title": "Spring Boot",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\spring-boot.md",
           "body": "<p>We have had good experiences with Spring Boot, and already have several Spring Boot-based services running in \nproduction. We like the ease of kickstarting new services and the variety of tools in the Spring ecosystem.</p>\n"
         },
@@ -3355,7 +3355,7 @@
           "release": "2017-03-01",
           "title": "Spring Boot",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\spring-boot.md",
           "body": "<p>With Spring Boot you create standalone Spring Applications with minimum configuration. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://projects.spring.io/spring-boot/\">Spring Boot</a> rapidly gets you up and running for production.</p>\n<p>With an embedded Tomcat, Jetty and Undertow you have everything you need to deploy your application out-of-the-box.</p>\n<p>The Spring Cloud ecosystem also gives you a lot of extension points for developing, deploying and running cloud applications.</p>\n<p>It&#39;s based on the rock-solid Spring framework and provides excellent documentation.</p>\n<p>At AOE, we use Spring Boot in a microservice architecture. Together with Groovy as the implementation Language, and some other Tools (Spring Security, Cloud, HATEOAS, Data, Session) from the Spring environment, we are able to create complex and powerful applications in no time.</p>\n"
         }
@@ -3363,7 +3363,7 @@
       "name": "spring-boot",
       "title": "Spring Boot",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>We now have several years of experiences with Spring Boot, \nand a big projects Microservice Environment runs completely on Spring Boot, \nso it&#39;s time to update it to &quot;adopt&quot;.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -3502,7 +3502,7 @@
           "release": "2017-03-01",
           "title": "Symfony Components",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\symfony-components.md",
           "body": "<p>Symfony Components are part of the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://symfony.com/\">Symfony Framework</a> and they are designed as decoupled and reusable PHP components.</p>\n<p>Their use cases vary from simple little helpers such as a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/var_dumper.html\">beautified var_dump</a> to more complex ones such as access control, list-based <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/security.html\">security mechanisms</a> and an easy-to-integrate <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/console.html\">console component</a> to give your already existing applications some CLI capabilities. They are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/projects\">used by a lot of PHP-based projects</a> such as Typo3, Magento, Composer, PHPUnit and Doctrine, with contributions continually taking place. If you are planning the next project with PHP components, you should have a look at the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/components\">Symfony Components list</a>, which includes a lot of well-designed, decoupled <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/symfony\">Open Source pieces of PHP code</a>.</p>\n"
         }
@@ -3510,7 +3510,7 @@
       "name": "symfony-components",
       "title": "Symfony Components",
       "ring": "trial",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Symfony Components are part of the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://symfony.com/\">Symfony Framework</a> and they are designed as decoupled and reusable PHP components.</p>\n<p>Their use cases vary from simple little helpers such as a <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/var_dumper.html\">beautified var_dump</a> to more complex ones such as access control, list-based <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/security.html\">security mechanisms</a> and an easy-to-integrate <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/doc/current/components/console.html\">console component</a> to give your already existing applications some CLI capabilities. They are <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/projects\">used by a lot of PHP-based projects</a> such as Typo3, Magento, Composer, PHPUnit and Doctrine, with contributions continually taking place. If you are planning the next project with PHP components, you should have a look at the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://symfony.com/components\">Symfony Components list</a>, which includes a lot of well-designed, decoupled <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://github.com/symfony\">Open Source pieces of PHP code</a>.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -3603,7 +3603,7 @@
           "release": "2019-11-01",
           "title": "Typescript",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\typescript.md",
           "body": "<p>As writing frontend applications becomes more complex, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> allows us to scale client side code easily, even with large code bases. We use typescript successfully at production for many projects and we are only going to use it even more in the future. We highly recommend using typescript over javascript, therefore we have decided to move it to adopt.</p>\n"
         },
@@ -3612,15 +3612,15 @@
           "release": "2017-03-01",
           "title": "Typescript",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\typescript.md",
-          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> is a language that gets transpiled to native JavaScript code.</p>\n<p>It offers support for the latest EcmaScript features and has strict typing and support for interfaces built in.</p>\n<p>JavaScript scoping, which led into recurring workarounds such as **var self = this, myFunc.bind(this)<em>,</em>**was eliminated in TypeScript.</p>\n<p>In TypeScript <strong>this</strong> stays <strong>this</strong>, which leads to more readable and understandable code from an OOP perspective.</p>\n<p>TypeScript continues to be actively developed by Microsoft and is well-Integrated in today&#39;s IDEs.</p>\n<p>The excellent structure and the possibilities for extension make it a good choice to consider for larger JavaScript projects.</p>\n<p>Typescript was the choice for <a href=\"/techradar/languages-and-frameworks/angular.html\">Angular</a> and one can assume that it will get more traction with the success of Angular in the future.</p>\n<p>There are also projects that support Typescript „code execution“ on the server such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/package/ts-node\">ts-node</a>.</p>\n"
+          "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> is a language that gets transpiled to native JavaScript code.</p>\n<p>It offers support for the latest EcmaScript features and has strict typing and support for interfaces built in.</p>\n<p>JavaScript scoping, which led into recurring workarounds such as **var self = this, myFunc.bind(this)<em>,</em>**was eliminated in TypeScript.</p>\n<p>In TypeScript <strong>this</strong> stays <strong>this</strong>, which leads to more readable and understandable code from an OOP perspective.</p>\n<p>TypeScript continues to be actively developed by Microsoft and is well-Integrated in today&#39;s IDEs.</p>\n<p>The excellent structure and the possibilities for extension make it a good choice to consider for larger JavaScript projects.</p>\n<p>Typescript was the choice for <a href=\"/techradar/deep-discipline-expertise/angular.html\">Angular</a> and one can assume that it will get more traction with the success of Angular in the future.</p>\n<p>There are also projects that support Typescript „code execution“ on the server such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.npmjs.com/package/ts-node\">ts-node</a>.</p>\n"
         }
       ],
       "name": "typescript",
       "title": "Typescript",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>As writing frontend applications becomes more complex, <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.typescriptlang.org/\">TypeScript</a> allows us to scale client side code easily, even with large code bases. We use typescript successfully at production for many projects and we are only going to use it even more in the future. We highly recommend using typescript over javascript, therefore we have decided to move it to adopt.</p>\n",
       "info": "",
       "release": "2019-11-01",
@@ -3681,7 +3681,7 @@
           "release": "2021-01-01",
           "title": "Vue.js",
           "ring": "adopt",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2021-01-01\\vue.md",
           "body": "<p>Updated to &quot;adopt&quot;.</p>\n"
         },
@@ -3690,7 +3690,7 @@
           "release": "2018-03-01",
           "title": "Vue.js",
           "ring": "trial",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2018-03-01\\vue.md",
           "body": "<p>Updated to &quot;trial&quot;.</p>\n"
         },
@@ -3699,7 +3699,7 @@
           "release": "2017-03-01",
           "title": "Vue.js",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2017-03-01\\vue.md",
           "body": "<p>Vue is a progressive, incrementally adoptable framework for building user interfaces maintained by Evan You. Unlike <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://vuejs.org/v2/guide/comparison.html\">other monolithic frameworks</a>, the core library is focused on the view layer only and is very easy to pick up and integrate with other libraries or existing projects. Vue is also perfectly capable of powering sophisticated single-page applications when used in combination with modern tooling and supporting libraries such as <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vuex.vuejs.org/en/\">vuex</a> and <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://router.vuejs.org/en/\">vue-router</a>.</p>\n<p>Vue uses an HTML-based template syntax that allows you to declaratively bind the rendered DOM to the underlying Vue instance’s data. Under the hood, Vue compiles the templates into Virtual DOM render functions. Combined with the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://vuejs.org/v2/guide/reactivity.html\">reactivity system</a> Vue is able to intelligently figure out the minimal amount of components to re-render and apply the minimal amount of DOM manipulations when the app state changes, which provides for very high performance.</p>\n<p>Applications can be split into <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://vuejs.org/v2/guide/single-file-components.html\">Single File Components</a> - a single file containing the template (HTML), style (CSS) and functionality (JS) - which simplifies maintainability and testability of the code and promotes reusability across other projects.</p>\n"
         }
@@ -3707,7 +3707,7 @@
       "name": "vue",
       "title": "Vue.js",
       "ring": "adopt",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p>Updated to &quot;adopt&quot;.</p>\n",
       "info": "",
       "release": "2021-01-01",
@@ -3722,7 +3722,7 @@
           "release": "2019-11-01",
           "title": "Vuex",
           "ring": "assess",
-          "quadrant": "languages-and-frameworks",
+          "quadrant": "deep-discipline-expertise",
           "fileName": "C:\\projects\\techradar\\radar\\2019-11-01\\vuex.md",
           "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vuex.vuejs.org/\">Vuex</a> is a state management pattern + library for Vue.js applications.</p>\n"
         }
@@ -3730,7 +3730,7 @@
       "name": "vuex",
       "title": "Vuex",
       "ring": "assess",
-      "quadrant": "languages-and-frameworks",
+      "quadrant": "deep-discipline-expertise",
       "body": "<p><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://vuex.vuejs.org/\">Vuex</a> is a state management pattern + library for Vue.js applications.</p>\n",
       "info": "",
       "release": "2021-01-01",
