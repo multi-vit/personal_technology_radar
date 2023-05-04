@@ -1,9 +1,9 @@
 {
   "quadrants": {
-    "tools": "Cross Discipline Expertise",
+    "cross-discipline-expertise": "Cross Discipline Expertise",
     "deep-discipline-expertise": "Deep Discipline Expertise",
-    "methods-and-patterns": "Personal Effectiveness",
-    "platforms-and-aoe-services": "Everything Else..."
+    "personal-effectiveness": "Personal Effectiveness",
+    "everything-else": "Everything Else..."
   },
   "rings": ["adopt", "trial", "assess", "hold"],
   "showEmptyRings": false,
@@ -15,23 +15,23 @@
       "position": 1,
       "description": "We've placed development languages (such as Scala or Golang) here, as well as more low-level development frameworks (such as Play or Symfony), which are useful for implementing custom software of all kinds."
     },
-    "tools": {
+    "cross-discipline-expertise": {
       "colour": "#F2A25C",
       "txtColour": "white",
       "position": 4,
       "description": "Here we put different software tools - from small helpers to bigger software projects"
     },
-    "methods-and-patterns": {
-      "colour": "#248EA6",
-      "txtColour": "white",
-      "position": 2,
-      "description": "Here we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
-    },
-    "platforms-and-aoe-services": {
+    "everything-else": {
       "colour": "#F25244",
       "txtColour": "#444444",
       "position": 3,
       "description": "This quadrant clusters technologies around the operation of software and infrastructure related platforms, tools and services."
+    },
+    "personal-effectiveness": {
+      "colour": "#248EA6",
+      "txtColour": "white",
+      "position": 2,
+      "description": "Here we put information on methods and patterns concerning development, continuous x, testing, organization, architecture, etc."
     }
   },
   "chartConfig": {
