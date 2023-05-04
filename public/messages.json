@@ -43,16 +43,16 @@
         "name": "Deep Discipline Expertise"
       },
       {
+        "description": "Taking a holistic approach to personal development and allowing folks to put more personal goals/tools/practices in here.",
+        "name": "Everything Else..."
+      },
+      {
         "description": "The horizontal part of the T",
         "name": "Cross Discipline Expertise"
       },
       {
         "description": "Tools and patterns that you use within your job role but which don't necessarily fall under your main job role but contribute to your effectiveness within the organisation.",
         "name": "Personal Effectiveness"
-      },
-      {
-        "description": "Taking a holistic approach to personal development and allowing folks to put more personal goals/tools/practices in here.",
-        "name": "Everything Else..."
       }
     ],
     "quadrantsPreDescription": "The quadrants are:",
