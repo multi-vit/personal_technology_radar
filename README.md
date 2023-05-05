@@ -174,7 +174,7 @@ The content should look as follows:
     "platforms-and-operations": "Platforms & Operations",
     "cross-discipline-expertise": "Tools"
   },
-  "rings": ["all", "adopt", "trial", "assess", "hold"],
+  "rings": ["all", "adopt", "trial", "backburner", "hold"],
   "showEmptyRings": true
 }
 ```

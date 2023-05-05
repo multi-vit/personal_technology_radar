@@ -5,30 +5,30 @@
     "personal-effectiveness": "Personal Effectiveness",
     "everything-else": "Everything Else..."
   },
-  "rings": ["adopt", "trial", "assess", "hold"],
+  "rings": ["adopt", "trial", "backburner", "hold"],
   "showEmptyRings": false,
   "homepageContent": "both",
   "quadrantsMap": {
     "deep-discipline-expertise": {
-      "colour": "#84BFA4",
+      "colour": "#4fd3ce",
       "txtColour": "#444444",
       "position": 1,
       "description": "Specialism. The vertical part of the T"
     },
     "cross-discipline-expertise": {
-      "colour": "#F2A25C",
+      "colour": "#3ecbfd",
       "txtColour": "white",
       "position": 2,
       "description": "The horizontal part of the T"
     },
     "personal-effectiveness": {
-      "colour": "#248EA6",
+      "colour": "#df5eb0",
       "txtColour": "white",
       "position": 3,
       "description": "Tools and patterns that you use within your job role but which don't necessarily fall under your main job role but contribute to your effectiveness within the organisation."
     },
     "everything-else": {
-      "colour": "#F25244",
+      "colour": "#8d5edf",
       "txtColour": "#444444",
       "position": 4,
       "description": "Taking a holistic approach to personal development and allowing folks to put more personal goals/tools/practices in here."
