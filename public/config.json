@@ -5,7 +5,7 @@
     "personal-effectiveness": "Personal Effectiveness",
     "everything-else": "Everything Else..."
   },
-  "rings": ["adopt", "trial", "backburner", "hold"],
+  "rings": ["continue", "trial", "backburner", "hold"],
   "showEmptyRings": false,
   "homepageContent": "both",
   "quadrantsMap": {

@@ -5,21 +5,21 @@
       "featured": true,
       "name": "react",
       "title": "React.js",
-      "ring": "adopt",
+      "ring": "continue",
       "quadrant": "deep-discipline-expertise",
-      "body": "<p>The past months have shown that React is still a great fit for us for frontend-heavy\napplications. With its rewritten core in version 16, Facebook shows how\nimportant this framework is for them. Therefore, Facebook is investing a lot of effort into React and a\nhealthy community. In addition, we <strong>REALLY</strong> enjoy writing React\ncomponents – so much so, that we have to move this library into <strong>adopt</strong>!</p>\n",
+      "body": "",
       "info": "",
       "release": "2018-03-01",
       "fileName": ""
     },
     {
-      "flag": "changed",
+      "flag": "default",
       "featured": true,
       "name": "rxjs",
       "title": "RxJs",
       "ring": "backburner",
       "quadrant": "deep-discipline-expertise",
-      "body": "<p>RX/JS aka reactive streams</p>\n<p>RxJS is an implementation for the reactive programming paradigm which implements mostly the observer and iterator\npattern and follows the functional programming ideas. The pattern actually got a renaissance because it&#39;s not completely\nnew but has new implementations in many frameworks and languages like Angular, Akka, Spring and many more. Reason for \nthat attention actually is (in the javascript world), that observables can be cancelled (by rules too) and  observables\ncan pass (stream) data on multiple events. Both aspects are not well realizable using promises e.g. and both were also\ndetected as a huge limitation in the JavaScript community — and so it&#39;s worth to get an understanding for reactive\nprogramming in general.</p>\n<p>We at AOE actually use RxJS in combination with Angular and can fully recommend the approach of observables.</p>\n",
+      "body": "",
       "info": "",
       "release": "2021-01-01",
       "fileName": ""
@@ -29,13 +29,73 @@
       "featured": true,
       "name": "sass",
       "title": "SASS",
-      "ring": "adopt",
+      "ring": "continue",
       "quadrant": "deep-discipline-expertise",
-      "body": "<p>SASS (Syntactically Awesome Style-Sheets) is an extension to native CSS, which, as a preprocessor, simplifies the generation of CSS by offering features that enable developers to more efficiently write robust, better readable and maintainable CSS.</p>\n<p>Core features of SASS are:</p>\n<ul>\n<li>  Nesting of rules: CSS rules can be indented, reducing redundancy of selectors and increasing readability due to shorter selectors.</li>\n<li>  Use of variables: Commonly-used values such as colors can be stored in variables</li>\n<li>  Mixins: Often-used CSS blocks can be referenced by using mixins, which work like functions</li>\n<li>  Extends: CSS properties can be inherited</li>\n<li>  SASS files can be split into modules, which leads to smaller files and better file structures</li>\n<li>  Operators: Simple math calculations can be applied to CSS properties</li>\n<li>  Easily to integrate in nodejs-environments and build tools such s <a href=\"/techradar/tools/npm.html\">NPM</a>, <a href=\"/techradar/tools/gulp.html\">Gulp</a> and <a href=\"/techradar/tools/grunt.html\">Grunt</a>.</li>\n</ul>\n<p>SASS has been widely adopted for many years and has evolved to an industry-standard backed by an active community since 2006.</p>\n<p>The learning curve is very smooth as SASS is fully compatible to CSS, meaning that all features are optional: Starting with SASS is as easy as renaming .css-files to .scss in a first step and then refactoring it step-by-step with the use of SASS features.</p>\n<p>At AOE, SASS has been recommended by the frontend COI and is used in nearly every current project.</p>\n<p>More information:</p>\n<ul>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sass-lang.com/\">SASS Language</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://sassdoc.com/\">SASSDoc</a></li>\n<li>  <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.theguardian.com/info/developer-blog/2014/may/13/improving-sass-code-quality-on-theguardiancom\">Improving Sass code quality on</a> <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"http://theguardian.com\">theguardian.com</a></li>\n</ul>\n",
+      "body": "",
       "info": "TEST",
-      "release": "2017-03-01",
+      "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "default",
+      "featured": true,
+      "name": "selenium",
+      "title": "Selenium",
+      "ring": "hold",
+      "quadrant": "deep-discipline-expertise",
+      "body": "I have used this to a slight degree in the past but would prefer use of cypress or playwright for automation testing.",
+      "info": "TEST",
+      "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "default",
+      "featured": true,
+      "name": "graphql",
+      "title": "GraphQL",
+      "ring": "trial",
+      "quadrant": "deep-discipline-expertise",
+      "body": "I have used this in personal projects but have yet to gain serious professional experience of it",
+      "info": "TEST",
+      "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "default",
+      "featured": true,
+      "name": "jquery",
+      "title": "jQuery",
+      "ring": "hold",
+      "quadrant": "deep-discipline-expertise",
+      "body": "I have extensive experience of jQuery and a great deal of love for it, however it's time has passed and modern technologies such as React and Angular render it outdated.",
+      "info": "TEST",
+      "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "default",
+      "featured": true,
+      "name": "html5",
+      "title": "HTML 5 (semantic)",
+      "ring": "continue",
+      "quadrant": "deep-discipline-expertise",
+      "body": "As an experienced front-end developer I have extensive use and experience of semantic HTML.  It is a key tool in my toolbox.",
+      "info": "TEST",
+      "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "default",
+      "featured": true,
+      "name": "javascript",
+      "title": "Javascript",
+      "ring": "continue",
+      "quadrant": "deep-discipline-expertise",
+      "body": "As an experienced front-end developer I have extensive use and experience of JavaScript.  It is a key tool in my toolbox.",
+      "info": "TEST",
+      "release": "2023-05-10",
       "fileName": ""
     }
   ],
-  "releases": ["2017-03-01", "2018-03-01", "2019-11-01", "2021-01-01"]
+  "releases": ["2023-05-10"]
 }

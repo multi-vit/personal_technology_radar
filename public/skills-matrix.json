@@ -1,0 +1,3479 @@
+[
+  {
+    "database": {
+      "skills": [
+        {
+          "id": "f300ba83",
+          "name": "AWS DynamoDB",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "24ec9cfe",
+          "name": "Azure Cosmos",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c95756bf",
+          "name": "AWS Aurora",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "104b02a0",
+          "name": "Azure SQL",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "676e5a3a",
+          "name": "Microsoft SQL Server",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d70885b0",
+          "name": "MySQL",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "af79068b",
+          "name": "PostgreSQL",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e3ac63b1",
+          "name": "SQLite",
+          "family": "Database",
+          "parent": "Databases",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "85007177",
+          "name": "AWS Neptune",
+          "family": "Database",
+          "parent": "Graph",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e93b8324",
+          "name": "Gremlin API (Cosmos)",
+          "family": "Database",
+          "parent": "Graph",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1eed4fa3",
+          "name": "Neo4j",
+          "family": "Database",
+          "parent": "Graph",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e16db201",
+          "name": "AWS Elasticache",
+          "family": "Database",
+          "parent": "In Memory",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7bd53ecc",
+          "name": "etcd",
+          "family": "Database",
+          "parent": "In Memory",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "87163d0a",
+          "name": "Memcached",
+          "family": "Database",
+          "parent": "In Memory",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "31ac89eb",
+          "name": "Redis",
+          "family": "Database",
+          "parent": "In Memory",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b219469f",
+          "name": "AWS DocumentDB",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "913faf3a",
+          "name": "Azure Table",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b691baeb",
+          "name": "Cassandra",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b1a5c794",
+          "name": "Couchbase",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "dde7f280",
+          "name": "MongoDB",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0d8714a2",
+          "name": "RethinkDB",
+          "family": "Database",
+          "parent": "Key:Value and Document",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "22328153",
+          "name": "Maria DB",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "828cefde",
+          "name": "Oracle",
+          "family": "Database",
+          "parent": "Relational",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "cefdeec9",
+          "name": "AWS Kinesis",
+          "family": "Database",
+          "parent": "Stream Processing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2ae3a7a2",
+          "name": "Azure Event Hubs",
+          "family": "Database",
+          "parent": "Stream Processing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "79458e24",
+          "name": "Azure Stream Analytics",
+          "family": "Database",
+          "parent": "Stream Processing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "278651c1",
+          "name": "Kafka",
+          "family": "Database",
+          "parent": "Stream Processing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5a14b0bb",
+          "name": "InfluxDB",
+          "family": "Database",
+          "parent": "Time Series",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "Tools": {
+      "skills": [
+        {
+          "id": "55e3fc2c",
+          "name": "Confluence",
+          "family": "Tools",
+          "parent": "Agile planning",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "680884ec",
+          "name": "Jira",
+          "family": "Tools",
+          "parent": "Agile planning",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "05d3eb6a",
+          "name": "MacOS",
+          "family": "Tools",
+          "parent": "OS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fc161756",
+          "name": "Windows",
+          "family": "Tools",
+          "parent": "OS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e71e5bb6",
+          "name": "BitBucket",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4511f339",
+          "name": "Git",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e71x5bb9",
+          "name": "GitHub",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": true,
+          "createdAt": "2023-04-04T14:22:01.976Z",
+          "updatedAt": "2023-04-04T14:22:01.976Z"
+        },
+        {
+          "id": "e59199e0",
+          "name": "GitLab",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "73276f12",
+          "name": "SonarQube",
+          "family": "Tools",
+          "parent": "Static Code Analysis",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e995e958",
+          "name": "Azure DevOps",
+          "family": "Tools",
+          "parent": "Agile planning",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "efa57579",
+          "name": "K6",
+          "family": "Tools",
+          "parent": "Non functional automated testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ba267675",
+          "name": "Locust",
+          "family": "Tools",
+          "parent": "Non functional automated testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ec44b544",
+          "name": "Azure Devops Repos",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2ff0c757",
+          "name": "Cloud Source Repos",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3ace3bae",
+          "name": "Code Commit",
+          "family": "Tools",
+          "parent": "Source Control",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "aadb8d8f",
+          "name": "DrawIO",
+          "family": "Tools",
+          "parent": "Visualisation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f3f52d11",
+          "name": "LucidChart",
+          "family": "Tools",
+          "parent": "Visualisation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "13c1ca3c",
+          "name": "LucidScale",
+          "family": "Tools",
+          "parent": "Visualisation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "682dd070",
+          "name": "Miro",
+          "family": "Tools",
+          "parent": "Visualisation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "backend-other": {
+      "skills": [
+        {
+          "id": "36f53010",
+          "name": "NodeJS",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0e886815",
+          "name": "Python",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "9ff402fb",
+          "name": "Designing Architectures for Scale",
+          "family": "Backend Other",
+          "parent": "Architecture",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "078b6ea6",
+          "name": "Event-Based Architectures",
+          "family": "Backend Other",
+          "parent": "Architecture",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8d07fa24",
+          "name": "Working with Systems at Scale",
+          "family": "Backend Other",
+          "parent": "Architecture",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "386c4bd8",
+          "name": "Pitest",
+          "family": "Backend Other",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e9a93ebc",
+          "name": "Rest Assured",
+          "family": "Backend Other",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ffaad047",
+          "name": "Cucumber-io",
+          "family": "Backend Other",
+          "parent": "BDD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "cba67c55",
+          "name": "cypress-cucumber-preprocessor",
+          "family": "Backend Other",
+          "parent": "BDD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2464c41c",
+          "name": "npm",
+          "family": "Backend Other",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ebcecc53",
+          "name": "Go",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "98345962",
+          "name": "Rust",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c0126d32",
+          "name": "Scala",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "04416bae",
+          "name": "Swift",
+          "family": "Backend Other",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "devops": {
+      "skills": [
+        {
+          "id": "d87c0b07",
+          "name": "Gitlab CI",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e1c53888",
+          "name": "Chef",
+          "family": "Devops",
+          "parent": "Configuration",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "32789398",
+          "name": "Puppet",
+          "family": "Devops",
+          "parent": "Configuration",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8e914610",
+          "name": "CI-CD Pipelines",
+          "family": "Devops",
+          "parent": "DevOps",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "40a6775c",
+          "name": "Terraform",
+          "family": "Devops",
+          "parent": "DevOps",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2aad4d9c",
+          "name": "Docker",
+          "family": "Devops",
+          "parent": "Kubernetes/Containers",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c16f5b04",
+          "name": "Kubernetes",
+          "family": "Devops",
+          "parent": "Kubernetes/Containers",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ab6376bc",
+          "name": "Bash",
+          "family": "Devops",
+          "parent": "Scripting",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fd2f81fb",
+          "name": "Helm",
+          "family": "Devops",
+          "parent": "Scripting",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ee49e724",
+          "name": "Json",
+          "family": "Devops",
+          "parent": "Scripting",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "76f0c276",
+          "name": "Powershell",
+          "family": "Devops",
+          "parent": "Scripting",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fe854c0d",
+          "name": "Yaml",
+          "family": "Devops",
+          "parent": "Scripting",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "46a3243c",
+          "name": "Consul",
+          "family": "Devops",
+          "parent": "Service Meshes",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "9e6533c9",
+          "name": "Istio",
+          "family": "Devops",
+          "parent": "Service Meshes",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b03c3029",
+          "name": "ArgoCD",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8d0a8718",
+          "name": "Atlantis",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "27e43715",
+          "name": "AWS Code Pipeline",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c6f7146e",
+          "name": "Bitbucket Pipelines",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ce5ca460",
+          "name": "BuildKite",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "992f88ca",
+          "name": "CircleCI",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8ec1be77",
+          "name": "Codemagic",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c1905828",
+          "name": "GitHub Actions",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0cf0674d",
+          "name": "Gitlab Pipelines",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8eeb05d8",
+          "name": "Jenkins",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "227acef7",
+          "name": "Spinnaker",
+          "family": "Devops",
+          "parent": "CI/CD",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "23806167",
+          "name": "Ansible",
+          "family": "Devops",
+          "parent": "Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d0f8393e",
+          "name": "LaunchDarkly (feature toggles)",
+          "family": "Devops",
+          "parent": "Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "547e053d",
+          "name": "Saltstack",
+          "family": "Devops",
+          "parent": "Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "951cd538",
+          "name": "Grafana",
+          "family": "Devops",
+          "parent": "Dashboards",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b1acf131",
+          "name": "Kibana",
+          "family": "Devops",
+          "parent": "Dashboards",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "86724802",
+          "name": "Quicksight",
+          "family": "Devops",
+          "parent": "Dashboards",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "22d7adb3",
+          "name": "Other IaC",
+          "family": "Devops",
+          "parent": "DevOps",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "589a8c88",
+          "name": "Arm Templates",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "23b1cf42",
+          "name": "AWS CDK",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b7635d17",
+          "name": "AWS Serverless Application Model",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "27b50845",
+          "name": "Bicep",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b2d04434",
+          "name": "Google Cloud Deployment Manager",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "46d3ce21",
+          "name": "Pulumi",
+          "family": "Devops",
+          "parent": "IAC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ed365442",
+          "name": "Artifactory",
+          "family": "Devops",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ad1f9e9e",
+          "name": "DockerHub",
+          "family": "Devops",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "67467d93",
+          "name": "Harbour",
+          "family": "Devops",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "00b78d08",
+          "name": "Nexus",
+          "family": "Devops",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "06a6edd3",
+          "name": "Crossplane",
+          "family": "Devops",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ca3b70ae",
+          "name": "PodMan",
+          "family": "Devops",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "36e118e1",
+          "name": "AppDynamics",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b80b903f",
+          "name": "AWS CloudWatch",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e633f5b1",
+          "name": "AWS XRay",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0722ad57",
+          "name": "DataDog",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0332531a",
+          "name": "Dynatrace",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6643ae47",
+          "name": "ElasticSearch/Opensearch",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8968fad4",
+          "name": "Fleuntd",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "18eb0185",
+          "name": "Jaeger",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4edd2a8e",
+          "name": "Logstash",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5018512f",
+          "name": "New Relic",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bbcae381",
+          "name": "Prometheus",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "98a97011",
+          "name": "Splunk",
+          "family": "Devops",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e907d823",
+          "name": "DNS",
+          "family": "Devops",
+          "parent": "Networking",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d8aa0fec",
+          "name": "Load Balancers",
+          "family": "Devops",
+          "parent": "Networking",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-30T09:41:09.355Z"
+        },
+        {
+          "id": "b4cd3dd6",
+          "name": "Subnetting",
+          "family": "Devops",
+          "parent": "Networking",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6fd82b54",
+          "name": "Tempo",
+          "family": "Devops",
+          "parent": "Observability",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "dd675b01",
+          "name": "linkered",
+          "family": "Devops",
+          "parent": "Service Meshes",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "78cc7232",
+          "name": "Traefik",
+          "family": "Devops",
+          "parent": "Service Meshes",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "frontend": {
+      "skills": [
+        {
+          "id": "f0fcc038",
+          "name": "Selenium",
+          "family": "Frontend",
+          "parent": "Automated Testing",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8b9fae31",
+          "name": "GraphQL",
+          "family": "Frontend",
+          "parent": "Data Fetching",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "109b633e",
+          "name": "jQuery",
+          "family": "Frontend",
+          "parent": "Javascript Library",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bb0ad64c",
+          "name": "React JS",
+          "family": "Frontend",
+          "parent": "Javascript Library",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8ec43390",
+          "name": "HTML 5 (semantic)",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1d4339dc",
+          "name": "Javascript",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1342bf23",
+          "name": "Redux / Redux Toolkit",
+          "family": "Frontend",
+          "parent": "State Management",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b8a0d8d4",
+          "name": "AngularJS",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "89adf6a8",
+          "name": "Next JS",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0287d770",
+          "name": "Vue",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "000ae18c",
+          "name": "WCAG",
+          "family": "Frontend",
+          "parent": "Accessibility",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "15926303",
+          "name": "Appium",
+          "family": "Frontend",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1cb3b1b8",
+          "name": "Applitools",
+          "family": "Frontend",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b9ac20b0",
+          "name": "Katalon",
+          "family": "Frontend",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "56e935b5",
+          "name": "Webdriver-io",
+          "family": "Frontend",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "121211a1",
+          "name": "Cypress",
+          "family": "Frontend",
+          "parent": "Automation Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "adb5776d",
+          "name": "Playwright",
+          "family": "Frontend",
+          "parent": "Automation Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "932da632",
+          "name": "Lerna",
+          "family": "Frontend",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "defd5090",
+          "name": "Vite",
+          "family": "Frontend",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bb61eb35",
+          "name": "Webpack",
+          "family": "Frontend",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "febc9f22",
+          "name": "Firebase",
+          "family": "Frontend",
+          "parent": "Cloud services",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fdffadd6",
+          "name": "Contentful",
+          "family": "Frontend",
+          "parent": "Content Management System (CMS)",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d59d3a06",
+          "name": "Sanity",
+          "family": "Frontend",
+          "parent": "Content Management System (CMS)",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "06a1a76f",
+          "name": "Strapi",
+          "family": "Frontend",
+          "parent": "Content Management System (CMS)",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "03f8bc08",
+          "name": "WordPress",
+          "family": "Frontend",
+          "parent": "Content Management System (CMS)",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1a06b087",
+          "name": "Axios",
+          "family": "Frontend",
+          "parent": "Data Fetching",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6dc6d9a7",
+          "name": "Docusaurus",
+          "family": "Frontend",
+          "parent": "Documentation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0957fea5",
+          "name": "Storybook",
+          "family": "Frontend",
+          "parent": "Documentation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5b509e46",
+          "name": "CSS Modules",
+          "family": "Frontend",
+          "parent": "Frontend Styling",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "06317058",
+          "name": "Sass",
+          "family": "Frontend",
+          "parent": "Frontend Styling",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f2d98e0f",
+          "name": "Styled components",
+          "family": "Frontend",
+          "parent": "Frontend Styling",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4106ffc3",
+          "name": "KnockoutJS",
+          "family": "Frontend",
+          "parent": "Javascript Library",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c8f9dadc",
+          "name": "CSS",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b31bdf9a",
+          "name": "Elixir",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0004b568",
+          "name": "Elm",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2f05836b",
+          "name": "Flash/ActionScript",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bf87eb3e",
+          "name": "TypeScript",
+          "family": "Frontend",
+          "parent": "Languages",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "209d2950",
+          "name": "Google Analytics",
+          "family": "Frontend",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "889557c2",
+          "name": "Rollbar",
+          "family": "Frontend",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "86eb2986",
+          "name": "Sentry",
+          "family": "Frontend",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8b51a1b6",
+          "name": "Google Tag Manager",
+          "family": "Frontend",
+          "parent": "SEO",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2cc5d4f1",
+          "name": "Micro Data (schema)",
+          "family": "Frontend",
+          "parent": "SEO",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "52380e7f",
+          "name": "Enzyme",
+          "family": "Frontend",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "40fe3b30",
+          "name": "Jest",
+          "family": "Frontend",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d52e384b",
+          "name": "React Testing Library",
+          "family": "Frontend",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8003f30e",
+          "name": "Vue test utils",
+          "family": "Frontend",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "09dc29fb",
+          "name": "Angular 2+",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e7ac279b",
+          "name": "BackboneJS",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "af0ffe7b",
+          "name": "Gatsby",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "10118611",
+          "name": "Phoenix",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "10126483",
+          "name": "Remix",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0266128b",
+          "name": "Ruby on Rails",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "38ae67c6",
+          "name": "Svelte",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c35e1b28",
+          "name": "Vue 3",
+          "family": "Frontend",
+          "parent": "Web Application Frameworks",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "mobile": {
+      "skills": [
+        {
+          "id": "e57ec2c5",
+          "name": "React Native",
+          "family": "Mobile",
+          "parent": "Multiplatform",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3dcc7bd4",
+          "name": "Android",
+          "family": "Mobile",
+          "parent": "Native",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b6e57829",
+          "name": "iOS",
+          "family": "Mobile",
+          "parent": "Native",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5112a3c0",
+          "name": "Detox",
+          "family": "Mobile",
+          "parent": "Mobile automation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ffc46b6e",
+          "name": "Espresso",
+          "family": "Mobile",
+          "parent": "Mobile automation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d2f5f23d",
+          "name": "XCUITest",
+          "family": "Mobile",
+          "parent": "Mobile automation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e928e699",
+          "name": "Cordova",
+          "family": "Mobile",
+          "parent": "Multiplatform",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "24a3d13d",
+          "name": "Flutter",
+          "family": "Mobile",
+          "parent": "Multiplatform",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5c682bf8",
+          "name": "Kotlin Multiplatform",
+          "family": "Mobile",
+          "parent": "Multiplatform",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d7b753a4",
+          "name": "Xamarin",
+          "family": "Mobile",
+          "parent": "Multiplatform",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "65e2e75d",
+          "name": "watchOS",
+          "family": "Mobile",
+          "parent": "Native",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "AWS": {
+      "skills": [
+        {
+          "id": "220b78d8",
+          "name": "Compute",
+          "family": "AWS",
+          "parent": "AWS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "46333209",
+          "name": "Networking",
+          "family": "AWS",
+          "parent": "AWS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ab1499d2",
+          "name": "Serverless",
+          "family": "AWS",
+          "parent": "AWS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "338b2830",
+          "name": "AWS",
+          "family": "AWS",
+          "parent": "Cloud services",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "73b37c7b",
+          "name": "EC2",
+          "family": "AWS",
+          "parent": "Compute",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "60be8077",
+          "name": "Elastic Beanstalk",
+          "family": "AWS",
+          "parent": "Compute",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "a566129x",
+          "name": "RDS",
+          "family": "AWS",
+          "parent": "Database",
+          "isCore": true,
+          "createdAt": "2023-04-04T14:22:01.976Z",
+          "updatedAt": "2023-04-04T14:22:01.976Z"
+        },
+        {
+          "id": "999f1377",
+          "name": "IAM & Security on AWS",
+          "family": "AWS",
+          "parent": "Identity",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "27eb50c0",
+          "name": "SNS",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fc6d71da",
+          "name": "SQS",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "70e078fa",
+          "name": "Fargate",
+          "family": "AWS",
+          "parent": "Kubernetes/Containers",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fe57c2b9",
+          "name": "API Gateway",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f96613cc",
+          "name": "CloudFront",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "93adb9f8",
+          "name": "Route 53",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fd249293",
+          "name": "Secrets Manager",
+          "family": "AWS",
+          "parent": "Secrets, Keys, Certificates and Configuration",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "97939129",
+          "name": "Lambda",
+          "family": "AWS",
+          "parent": "Serverless",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "35061298",
+          "name": "S3",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "71f71cd4",
+          "name": "Storage",
+          "family": "AWS",
+          "parent": "AWS",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "df2dec6c",
+          "name": "EC2 Auto Scaling Groups",
+          "family": "AWS",
+          "parent": "Compute",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "713feac4",
+          "name": "CodeArtifact",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3bf9871e",
+          "name": "CodeBuild",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "61ef0d3d",
+          "name": "CodeCommit",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "96833dda",
+          "name": "CodeDeploy",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "12dbf47e",
+          "name": "CodeGuru",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e12a1982",
+          "name": "CodePipeline",
+          "family": "AWS",
+          "parent": "Developer Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ee798025",
+          "name": "EventBridge",
+          "family": "AWS",
+          "parent": "Event/Messaging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-31T14:18:54.527Z"
+        },
+        {
+          "id": "b6aa2057",
+          "name": "CDK",
+          "family": "AWS",
+          "parent": "IaC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3bab510d",
+          "name": "CloudFormation",
+          "family": "AWS",
+          "parent": "IaC",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e21b9e1f",
+          "name": "Cognito",
+          "family": "AWS",
+          "parent": "Identity",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "71fb55c1",
+          "name": "Kinesis",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fe32ef37",
+          "name": "MSK",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "edb63b8c",
+          "name": "SES",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5f7060f1",
+          "name": "Step Functions",
+          "family": "AWS",
+          "parent": "Integration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "408296f1",
+          "name": "ECR",
+          "family": "AWS",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "907a0913",
+          "name": "ECS",
+          "family": "AWS",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "28b6d420",
+          "name": "EKS",
+          "family": "AWS",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3f55facd",
+          "name": "OpenSearch",
+          "family": "AWS",
+          "parent": "Misc.",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "86466c63",
+          "name": "AWS IOT Core",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c5218bad",
+          "name": "Direct Connect",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "00a940d6",
+          "name": "Elastic Load Balancing",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ebcb8c31",
+          "name": "Transit Gateway",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "552dd570",
+          "name": "VPC",
+          "family": "AWS",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "63bc9310",
+          "name": "ACM",
+          "family": "AWS",
+          "parent": "Secrets, Keys, Certificates and Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6e5e24e9",
+          "name": "KMS",
+          "family": "AWS",
+          "parent": "Secrets, Keys, Certificates and Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ef380b21",
+          "name": "SSM Parameter Store",
+          "family": "AWS",
+          "parent": "Secrets, Keys, Certificates and Configuration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1e87ac5d",
+          "name": "disk",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "49f1bd7c",
+          "name": "EBS",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "72f17c47",
+          "name": "EFS",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bd2dd44c",
+          "name": "fsx",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e54c4e3e",
+          "name": "S3 Glacier",
+          "family": "AWS",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "Security": {
+      "skills": [
+        {
+          "id": "4980608f",
+          "name": "Dynamic Code Analysis",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "48596441",
+          "name": "Firewall",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "49866367",
+          "name": "Google Cloud Security Scanner",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6c0c6ec7",
+          "name": "GuardDuty",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4cc0c5c6",
+          "name": "SecurityHub",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "025b5146",
+          "name": "Sentinel",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-28T15:57:28.460Z"
+        },
+        {
+          "id": "2f41cff1",
+          "name": "Static Code analysis",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6e433a2d",
+          "name": "Vulnerability Scanning",
+          "family": "Security",
+          "parent": "Security",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "899772a4",
+          "name": "Aqua",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2b576273",
+          "name": "Black Duck",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4facd66a",
+          "name": "Checkov",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c8a8b47d",
+          "name": "Nexus IQ",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "84e9fcb6",
+          "name": "Prisma",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b8a9004d",
+          "name": "Prowler",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e882bb48",
+          "name": "Rapid7",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6f266342",
+          "name": "Snyk",
+          "family": "Security",
+          "parent": "Security Tools",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "gerneral-cloud": {
+      "skills": [
+        {
+          "id": "d59abcdd",
+          "name": "GCP",
+          "family": "General Cloud",
+          "parent": "Cloud services",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1f29b9bc",
+          "name": "OpenStack",
+          "family": "General Cloud",
+          "parent": "Cloud services",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f70f2f49",
+          "name": "IAM & Security on GCP",
+          "family": "General Cloud",
+          "parent": "Identity",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3ae7da65",
+          "name": "Linux",
+          "family": "General Cloud",
+          "parent": "OS",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "fea5d09d",
+          "name": "Api Management",
+          "family": "General Cloud",
+          "parent": "API Gateway",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "56ff7ec4",
+          "name": "Google Cloud Platform Api",
+          "family": "General Cloud",
+          "parent": "API Gateway",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "029e304c",
+          "name": "Kong",
+          "family": "General Cloud",
+          "parent": "API Gateway",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "9bb63390",
+          "name": "Mulesoft",
+          "family": "General Cloud",
+          "parent": "API Gateway",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "997d8c52",
+          "name": "Tyk",
+          "family": "General Cloud",
+          "parent": "API Gateway",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7758a325",
+          "name": "Akamai",
+          "family": "General Cloud",
+          "parent": "CDN",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5ed52659",
+          "name": "Azure CDN",
+          "family": "General Cloud",
+          "parent": "CDN",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e853d1ec",
+          "name": "CloudFlare",
+          "family": "General Cloud",
+          "parent": "CDN",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "022db3b4",
+          "name": "Fastly",
+          "family": "General Cloud",
+          "parent": "CDN",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4086debc",
+          "name": "Digital Ocean",
+          "family": "General Cloud",
+          "parent": "Cloud services",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bfa5d66f",
+          "name": "IBM Cloud",
+          "family": "General Cloud",
+          "parent": "Cloud services",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ed78c5b5",
+          "name": "Oracle Cloud",
+          "family": "General Cloud",
+          "parent": "Cloud services",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "55153ba9",
+          "name": "Data",
+          "family": "General Cloud",
+          "parent": "Cloud Strategy",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "63da1d31",
+          "name": "Migration",
+          "family": "General Cloud",
+          "parent": "Cloud Strategy",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bf34b0e9",
+          "name": "Operating Models",
+          "family": "General Cloud",
+          "parent": "Cloud Strategy",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7413e2da",
+          "name": "Serverless",
+          "family": "General Cloud",
+          "parent": "Cloud Strategy",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d251dd61",
+          "name": "Big Data & Analytics",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0cd3e005",
+          "name": "Compute",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "08e9d0c4",
+          "name": "ML/AI",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "37cebe95",
+          "name": "Networking",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5c7ff19b",
+          "name": "Serverless",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4280c31b",
+          "name": "Storage",
+          "family": "General Cloud",
+          "parent": "GCP",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "a59cfad8",
+          "name": "Google Container Registry",
+          "family": "General Cloud",
+          "parent": "Image Management",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ab5d1ca9",
+          "name": "GKE",
+          "family": "General Cloud",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "35176ee8",
+          "name": "OpenShift",
+          "family": "General Cloud",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "083f12f8",
+          "name": "Rancher",
+          "family": "General Cloud",
+          "parent": "Kubernetes/Containers",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4069a1c8",
+          "name": "Gcp Monitoring",
+          "family": "General Cloud",
+          "parent": "Monitoring/Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "aa07ae26",
+          "name": "Google IOT Core",
+          "family": "General Cloud",
+          "parent": "Networking & Content Delivery",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0569b12c",
+          "name": "App Mesh",
+          "family": "General Cloud",
+          "parent": "Service Meshes",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "d40484a0",
+          "name": "Nomad",
+          "family": "General Cloud",
+          "parent": "Service Meshes",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "500af103",
+          "name": "filesystem",
+          "family": "General Cloud",
+          "parent": "Storage",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "java": {
+      "skills": [
+        {
+          "id": "98670043",
+          "name": "Micronaut",
+          "family": "Java",
+          "parent": "Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2308128d",
+          "name": "Quarkus",
+          "family": "Java",
+          "parent": "Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "189a1824",
+          "name": "Spring Boot",
+          "family": "Java",
+          "parent": "Application Frameworks",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e668b3e1",
+          "name": "Cucumber",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "356300fe",
+          "name": "JUnit 5",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5c59179c",
+          "name": "Mockito",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4d6540b4",
+          "name": "Concurrency",
+          "family": "Java",
+          "parent": "Core JDK Features",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5470fa3c",
+          "name": "Modules",
+          "family": "Java",
+          "parent": "Core JDK Features",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "078b4213",
+          "name": "Reflection",
+          "family": "Java",
+          "parent": "Core JDK Features",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2f5ef49e",
+          "name": "Regular Expressions",
+          "family": "Java",
+          "parent": "Core JDK Features",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "79a81dfe",
+          "name": "Streams",
+          "family": "Java",
+          "parent": "Core JDK Features",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1f86a0b7",
+          "name": "Swagger / Open API",
+          "family": "Java",
+          "parent": "Documentation",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "70a51bbc",
+          "name": "Java",
+          "family": "Java",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6d5e5f90",
+          "name": "Java 11",
+          "family": "Java",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f1a07505",
+          "name": "Java 17",
+          "family": "Java",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b0c482b3",
+          "name": "Java 8",
+          "family": "Java",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "90b51xbc",
+          "name": "Kotlin",
+          "family": "Java",
+          "parent": "Languages",
+          "isCore": true,
+          "createdAt": "2023-04-04T14:22:01.976Z",
+          "updatedAt": "2023-04-04T14:22:01.976Z"
+        },
+        {
+          "id": "00bd063c",
+          "name": "Hibernate",
+          "family": "Java",
+          "parent": "ORM",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "93def693",
+          "name": "spring-data-jpa",
+          "family": "Java",
+          "parent": "ORM",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "077b94bb",
+          "name": "AssertJ",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "728dd2ef",
+          "name": "Equals Verifier",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c1716038",
+          "name": "Hamcrest",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "43ba171b",
+          "name": "JaCoCo",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2f4ed91c",
+          "name": "JGiven",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ce148d73",
+          "name": "JMeter",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "b2deaa1f",
+          "name": "JUnit 4",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "9a3a1d3a",
+          "name": "Karate",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "88dc627c",
+          "name": "pitest",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "13e5a861",
+          "name": "Wiremock",
+          "family": "Java",
+          "parent": "Automated Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "95e80da8",
+          "name": "Gradle (Groovy DSL)",
+          "family": "Java",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4e700414",
+          "name": "Gradle (Kotlin DSL)",
+          "family": "Java",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3a3bd26d",
+          "name": "Maven",
+          "family": "Java",
+          "parent": "Build Tool",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2359762b",
+          "name": "CDI",
+          "family": "Java",
+          "parent": "Dependency Injection",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6a3d6e14",
+          "name": "Guice",
+          "family": "Java",
+          "parent": "Dependency Injection",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3087c34a",
+          "name": "Spring",
+          "family": "Java",
+          "parent": "Dependency Injection",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "152b8603",
+          "name": "Javadoc",
+          "family": "Java",
+          "parent": "Documentation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8aa95f39",
+          "name": "GSON",
+          "family": "Java",
+          "parent": "JSON/XML Serialization",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7ef26913",
+          "name": "Jackson JSON",
+          "family": "Java",
+          "parent": "JSON/XML Serialization",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "dfe30d1f",
+          "name": "JAXB",
+          "family": "Java",
+          "parent": "JSON/XML Serialization",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6f306845",
+          "name": "SLF4J",
+          "family": "Java",
+          "parent": "Logging",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7a677994",
+          "name": "GraalVM",
+          "family": "Java",
+          "parent": "Misc.",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c57192cf",
+          "name": "VisualVM",
+          "family": "Java",
+          "parent": "Misc.",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "491e876a",
+          "name": "YourKit",
+          "family": "Java",
+          "parent": "Misc.",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "01cc1fec",
+          "name": "JDBC",
+          "family": "Java",
+          "parent": "Native Queries",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "0ef271be",
+          "name": "JDBI",
+          "family": "Java",
+          "parent": "Native Queries",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8ae8cc00",
+          "name": "JOOQ",
+          "family": "Java",
+          "parent": "Native Queries",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "34f2ed14",
+          "name": "EclipseLink",
+          "family": "Java",
+          "parent": "ORM",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "64236771",
+          "name": "JPA",
+          "family": "Java",
+          "parent": "ORM",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4dc503d9",
+          "name": "MyBatis",
+          "family": "Java",
+          "parent": "ORM",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "45763df0",
+          "name": "Apache Commons Lang",
+          "family": "Java",
+          "parent": "Productivity",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "7870b16d",
+          "name": "Google Guava",
+          "family": "Java",
+          "parent": "Productivity",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c2a1095f",
+          "name": "Lombok",
+          "family": "Java",
+          "parent": "Productivity",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6c6e6c8e",
+          "name": "MapStruct",
+          "family": "Java",
+          "parent": "Productivity",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "db6d775c",
+          "name": "RxJava",
+          "family": "Java",
+          "parent": "Reactive Programming",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "2a635a0a",
+          "name": "SmallRye Mutiny",
+          "family": "Java",
+          "parent": "Reactive Programming",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "f7a53d7b",
+          "name": "Spring Reactive",
+          "family": "Java",
+          "parent": "Reactive Programming",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "29661272",
+          "name": "Vert.x",
+          "family": "Java",
+          "parent": "Reactive Programming",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6ed55c58",
+          "name": "Flyway",
+          "family": "Java",
+          "parent": "Schema Migration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "8776a165",
+          "name": "Liquibase",
+          "family": "Java",
+          "parent": "Schema Migration",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "ec8eb5ba",
+          "name": "spring-data",
+          "family": "Java",
+          "parent": "Spring",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1cd496e2",
+          "name": "spring-framework",
+          "family": "Java",
+          "parent": "Spring",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "975e5150",
+          "name": "spring-security",
+          "family": "Java",
+          "parent": "Spring",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c9051fd5",
+          "name": "spring-web-reactive",
+          "family": "Java",
+          "parent": "Spring",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "49325397",
+          "name": "spring-web-servlet",
+          "family": "Java",
+          "parent": "Spring",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "35b1eabd",
+          "name": "Hibernate Validator",
+          "family": "Java",
+          "parent": "Validation",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  },
+  {
+    "qa": {
+      "skills": [
+        {
+          "id": "64eac487",
+          "name": "Postman",
+          "family": "QA",
+          "parent": "API Testing",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5c87fca8",
+          "name": "Acceptance Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "81dad5c4",
+          "name": "Accessibility Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6444caec",
+          "name": "Design Reviews",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6dc7888d",
+          "name": "Exploratory Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "92828ccd",
+          "name": "Performance Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "45e583cb",
+          "name": "Process Documentation",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "47ac27fe",
+          "name": "Security Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "bcdc780e",
+          "name": "Static Testing",
+          "family": "QA",
+          "parent": "Test Methodologies",
+          "isCore": true,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "5213eccf",
+          "name": "Axe",
+          "family": "QA",
+          "parent": "Accessibility",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "c89fe55f",
+          "name": "Lighthouse",
+          "family": "QA",
+          "parent": "Accessibility",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "90a4cff9",
+          "name": "Wave",
+          "family": "QA",
+          "parent": "Accessibility",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "51266247",
+          "name": "Charles",
+          "family": "QA",
+          "parent": "API Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "a3acac4e",
+          "name": "Proxyman",
+          "family": "QA",
+          "parent": "API Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "1dc16e4e",
+          "name": "Android Studio",
+          "family": "QA",
+          "parent": "Mobile Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "e1c96424",
+          "name": "Apple Store Connect",
+          "family": "QA",
+          "parent": "Mobile Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "34756055",
+          "name": "Google Play Console",
+          "family": "QA",
+          "parent": "Mobile Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3a26f681",
+          "name": "TestFlight",
+          "family": "QA",
+          "parent": "Mobile Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "3771e951",
+          "name": "xCode",
+          "family": "QA",
+          "parent": "Mobile Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "9a966e95",
+          "name": "Browserstack",
+          "family": "QA",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "6dea3e2f",
+          "name": "TestRail",
+          "family": "QA",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "40ac67e4",
+          "name": "xRay",
+          "family": "QA",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "16101e1b",
+          "name": "xRay Exploratory ",
+          "family": "QA",
+          "parent": "Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4262fb17",
+          "name": "Chrome Dev Tools",
+          "family": "QA",
+          "parent": "Web Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        },
+        {
+          "id": "4157977f",
+          "name": "Terminal",
+          "family": "QA",
+          "parent": "Web Testing",
+          "isCore": false,
+          "createdAt": "2023-03-23T20:07:05.599Z",
+          "updatedAt": "2023-03-23T20:07:05.599Z"
+        }
+      ]
+    }
+  }
+]

@@ -78,7 +78,7 @@ Each file has a [front-matter](https://github.com/jxson/front-matter) header whe
 ```
 ---
 title:      "React"
-ring:       adopt
+ring:       continue
 quadrant:   deep-discipline-expertise
 ---
 
@@ -90,7 +90,7 @@ Following front-matter attributes are possible:
 - **title**: Name of the Item
 - **quadrant**: Quadrant. One of `deep-discipline-expertise`,
   `personal-effectiveness`, `everything-else`, `tools`
-- **ring**: Ring section in radar. One of `trial`, `assess`, `adopt`, `hold`
+- **ring**: Ring section in radar. One of `trial`, `assess`, `continue`, `hold`
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
 - **featured**: (optional, default "true") If you set this to `false`, the item
@@ -174,7 +174,7 @@ The content should look as follows:
     "platforms-and-operations": "Platforms & Operations",
     "cross-discipline-expertise": "Tools"
   },
-  "rings": ["all", "adopt", "trial", "backburner", "hold"],
+  "rings": ["all", "continue", "trial", "backburner", "hold"],
   "showEmptyRings": true
 }
 ```
@@ -186,7 +186,7 @@ To create different radars with one set of blips put a `tags` entry in your fron
 ```yaml
 ---
 title: Item
-ring: adopt
+ring: continue
 quadrant: tools
 tags: [radar-1, radar-2]
 ---
@@ -334,12 +334,12 @@ To add a help page, create a public folder in your application and put a `messag
     ],
     "rings": [
       {
-        "name": "Adopt",
+        "name": "continue",
         "description": "We can clearly recommend this technology. We have used it for longer period of time in many teams and it has proven to be stable and useful."
       },
       {
         "name": "Trial",
-        "description": "We have used it with success and recommend to have a closer look at the technology in this ring. The goal of items here is to look at them more closely, with the goal to bring them to the adopt level."
+        "description": "We have used it with success and recommend to have a closer look at the technology in this ring. The goal of items here is to look at them more closely, with the goal to bring them to the continue level."
       },
       {
         "name": "Assess",
