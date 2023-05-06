@@ -1,7 +1,7 @@
 {
   "items": [
     {
-      "flag": "default",
+      "flag": "growth",
       "featured": true,
       "name": "react",
       "title": "React.js",
@@ -13,11 +13,11 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "maintain",
       "featured": true,
       "name": "rxjs",
       "title": "RxJs",
-      "ring": "backburner",
+      "ring": "hold",
       "quadrant": "deep-discipline-expertise",
       "body": "",
       "info": "",
@@ -25,7 +25,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "decline",
       "featured": true,
       "name": "sass",
       "title": "SASS",
@@ -37,7 +37,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "decline",
       "featured": true,
       "name": "selenium",
       "title": "Selenium",
@@ -49,7 +49,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "growth",
       "featured": true,
       "name": "graphql",
       "title": "GraphQL",
@@ -61,7 +61,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "decline",
       "featured": true,
       "name": "jquery",
       "title": "jQuery",
@@ -73,7 +73,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "maintain",
       "featured": true,
       "name": "html5",
       "title": "HTML 5 (semantic)",
@@ -85,7 +85,7 @@
       "fileName": ""
     },
     {
-      "flag": "default",
+      "flag": "maintain",
       "featured": true,
       "name": "javascript",
       "title": "Javascript",
@@ -94,6 +94,18 @@
       "body": "As an experienced front-end developer I have extensive use and experience of JavaScript.  It is a key tool in my toolbox.",
       "info": "TEST",
       "release": "2023-05-10",
+      "fileName": ""
+    },
+    {
+      "flag": "decline",
+      "featured": true,
+      "name": "less",
+      "title": "LESS",
+      "ring": "hold",
+      "quadrant": "deep-discipline-expertise",
+      "body": "LESS is a language extension to CSS, I have used it extensively in the past but it seems to have fallen out of favour - especially with the increase of modern component driven development and more modern alternatives.",
+      "info": "TEST",
+      "release": "2017-03-01",
       "fileName": ""
     }
   ],

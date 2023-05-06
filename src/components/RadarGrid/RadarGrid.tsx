@@ -46,15 +46,15 @@ const Legend: React.FC = () => {
     <div className="radar-legend">
       <div className="wrapper">
         <span className="icon icon--blip_new"></span>
-        New in this version
+        Growth area
       </div>
       <div className="wrapper">
         <span className="icon icon--blip_changed"></span>
-        Recently changed
+        Maintaining knowledge
       </div>
       <div className="wrapper">
         <span className="icon icon--blip_default"></span>
-        Unchanged
+        Declining area
       </div>
     </div>
   );
