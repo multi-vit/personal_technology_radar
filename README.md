@@ -89,7 +89,7 @@ Following front-matter attributes are possible:
 
 - **title**: Name of the Item
 - **quadrant**: Quadrant. One of `deep-discipline-expertise`,
-  `personal-effectiveness`, `everything-else`, `tools`
+  `work-tools-and-collaboration`, `personal-effectiveness`, `tools`
 - **ring**: Ring section in radar. One of `trial`, `assess`, `continue`, `hold`
 - **info**: (optional) A short textual description of the item (visible in
   overview pages)
@@ -170,9 +170,9 @@ The content should look as follows:
 {
   "quadrants": {
     "deep-discipline-expertise": "Languages & Frameworks",
-    "personal-effectiveness": "Methods & Patterns",
+    "work-tools-and-collaboration": "Methods & Patterns",
     "platforms-and-operations": "Platforms & Operations",
-    "cross-discipline-expertise": "Tools"
+    "cross-discipline-proficiency": "Tools"
   },
   "rings": ["all", "continue", "trial", "backburner", "hold"],
   "showEmptyRings": true

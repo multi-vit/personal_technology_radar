@@ -1,9 +1,9 @@
 {
   "quadrants": {
     "deep-discipline-expertise": "Deep Discipline Expertise",
-    "cross-discipline-expertise": "Cross Discipline Expertise",
-    "personal-effectiveness": "Personal Effectiveness",
-    "everything-else": "Everything Else..."
+    "cross-discipline-proficiency": "Cross Discipline Proficiency",
+    "work-tools-and-collaboration": "Work Tools & Collaboration",
+    "personal-effectiveness": "Personal Effectiveness"
   },
   "rings": ["continue", "trial", "backburner", "hold"],
   "showEmptyRings": false,
@@ -15,19 +15,19 @@
       "position": 1,
       "description": "Specialism. The vertical part of the T"
     },
-    "cross-discipline-expertise": {
+    "cross-discipline-proficiency": {
       "colour": "#3ecbfd",
       "txtColour": "white",
       "position": 2,
       "description": "The horizontal part of the T"
     },
-    "personal-effectiveness": {
+    "work-tools-and-collaboration": {
       "colour": "#df5eb0",
       "txtColour": "white",
       "position": 3,
       "description": "Tools and patterns that you use within your job role but which don't necessarily fall under your main job role but contribute to your effectiveness within the organisation."
     },
-    "everything-else": {
+    "personal-effectiveness": {
       "colour": "#8d5edf",
       "txtColour": "#444444",
       "position": 4,
